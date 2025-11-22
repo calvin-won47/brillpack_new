@@ -1,0 +1,102 @@
+{
+  "basic": {
+    "app_name": "示例应用名称",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "default-site",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "默认SEO标题",
+      "description": "默认SEO描述",
+      "keywords": "关键词1, 关键词2, 关键词3"
+    },
+    "hero": {
+      "slogan": "这里是站点的Slogan",
+      "description": "这里是Hero区域的详细描述文本。"
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "xmyxyswkj"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Who We Are",
+      "heading": "Delivering Excellence in Custom Packaging",
+      "paragraph": "For over a decade, BrillPack has delivered custom packaging that protects your products and elevates your brand. We combine innovation, quality, and personalized service to create packaging solutions that make your products stand out.",
+      "features": [
+        "Custom design and branding solutions",
+        "High-quality materials and finishes",
+        "Fast turnaround times",
+        "Competitive pricing for all order sizes"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Comprehensive Packaging Solutions",
+      "subheading": "From concept to delivery, we provide end-to-end packaging services that exceed expectations.",
+      "cards": [
+        { "title": "Custom Box Design", "description": "Tailor-made packaging solutions designed specifically for your products and brand identity." },
+        { "title": "Premium Finishes", "description": "Choose from foil stamping, embossing, spot UV, and more to create stunning packaging." },
+        { "title": "Brand Enhancement", "description": "Elevate your brand with packaging that tells your story and captivates customers." },
+        { "title": "Fast Delivery", "description": "Quick turnaround times without compromising on quality, ensuring your products reach market faster." }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Box Styles",
+      "subheading": "Discover our wide range of custom packaging solutions designed to showcase your products beautifully.",
+      "types": [
+        { "name": "Rigid Boxes", "description": "Premium boxes for luxury products" },
+        { "name": "Folding Cartons", "description": "Versatile and cost-effective" },
+        { "name": "Magnetic Boxes", "description": "Elegant closure mechanisms" },
+        { "name": "Shoulder Boxes", "description": "Sophisticated two-piece design" }
+      ],
+      "ctaText": "View All Products"
+    },
+    "contact": {
+      "badge": "Get In Touch",
+      "heading": "Request Your Custom Quote",
+      "description": "Let's discuss how we can bring your packaging vision to life. Fill out the form below and we'll respond promptly.",
+      "emailLabel": "Email Us",
+      "email": "info@brillpack.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1 (555) 123-4567",
+      "addressLabel": "Visit Us",
+      "address": ["123 Packaging Lane", "Business District, NY 10001"],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Phone Number",
+        "message": "Tell us about your packaging needs..."
+      },
+      "submitText": "Send Quote Request",
+      "toastTitle": "Quote Request Received!",
+      "toastDescription": "We'll get back to you within 24 hours."
+    },
+    "footer": {
+      "brand": "BrillPack",
+      "tagline": "Brilliance in every box – creating custom packaging solutions that elevate your brand.",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        { "id": "home", "label": "Home" },
+        { "id": "about", "label": "About" },
+        { "id": "services", "label": "Services" },
+        { "id": "products", "label": "Products" }
+      ],
+      "servicesLabel": "Services",
+      "services": ["Custom Design", "Premium Finishes", "Brand Enhancement", "Fast Delivery"],
+      "contactLabel": "Contact",
+      "contact": ["info@brillpack.com", "+1 (555) 123-4567", "123 Packaging Lane", "Business District, NY 10001"],
+      "copyright": "© 2024 BrillPack. All rights reserved. Elevating brands through innovative packaging solutions."
+    }
+  }
+}

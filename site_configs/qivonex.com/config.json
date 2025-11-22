@@ -1,0 +1,129 @@
+{
+  "basic": {
+    "app_name": "QivexChange",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "qivonex",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "QivexChange - Cryptocurrency Exchange Platform",
+      "description": "Join QivexChange, the cutting-edge cryptocurrency exchange platform designed for tech-savvy traders and investors. Experience seamless trading with innovative features.",
+      "keywords": "cryptocurrency, exchange, trading, digital assets, blockchain, fintech, QivexChange"
+    },
+    "hero": {
+      "slogan": "Trade Smart, Trade Secure",
+      "description": "Welcome to QivexChange, your gateway to the world of cryptocurrency trading. Explore our platform and start your crypto journey today."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "qivonex"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "About QivexChange",
+      "paragraph": "QivexChange is a leading cryptocurrency exchange platform, providing secure and innovative solutions for digital asset trading.",
+      "features": [
+        "Secure transactions",
+        "User-friendly interface",
+        "24/7 customer support",
+        "Advanced trading tools"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "Our Services",
+      "subheading": "Comprehensive Crypto Solutions",
+      "cards": [
+        {
+          "title": "Crypto Trading",
+          "description": "Access a wide range of digital currencies and trade with confidence on our secure platform."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Products",
+      "subheading": "Innovative Trading Solutions",
+      "types": [
+        {
+          "name": "Spot Trading",
+          "description": "Engage in real-time trading of cryptocurrencies with our spot market."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "Reach out to us for any queries or support. Our team is here to help you.",
+      "emailLabel": "Email Us",
+      "email": "support@qivonex.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Our Address",
+      "address": [
+        "123 Crypto Lane",
+        "Blockchain City, BC 12345",
+        "Country"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "QivexChange",
+      "tagline": "Trade Smart, Trade Secure",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Crypto Trading",
+        "Market Analysis",
+        "Portfolio Management"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: support@qivonex.com",
+        "Phone: +1-800-555-0199"
+      ],
+      "copyright": "© 2023 QivexChange. All rights reserved."
+    }
+  }
+}
