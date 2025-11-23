@@ -137,6 +137,12 @@ jobs:
           name: vite-build-dist
           path: ./dist
 
+      - name: Setup Node.js 18 (for env reading)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
       - name: Determine domain from URL
         run: |
           echo "DEPLOY_DOMAIN=$(echo '${{ matrix.site.url }}' | sed -E 's#https?://##; s#/$##')" >> $GITHUB_ENV
@@ -189,7 +195,6 @@ jobs:
           rsync -rlDz \
             --delete \
             --omit-dir-times \
-            --exclude='config.json' \
             --exclude='.user.ini' \
             --exclude='.well-known/' \
             --exclude='logs/' \
@@ -200,11 +205,6 @@ jobs:
         run: |
           rsync -avzr --ignore-existing ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}/
 
-      - name: Override with site-specific config.json if present
-        run: |
-          if [ -f "site_configs/${DEPLOY_DOMAIN}/config.json" ]; then
-            rsync -avzr "site_configs/${DEPLOY_DOMAIN}/config.json" ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}/config.json
-          fi
 
   # --- 作业 3: 仅部署到一个指定站点（手动触发用） ---
   deploy_single:
@@ -221,6 +221,12 @@ jobs:
         with:
           name: vite-build-dist
           path: ./dist
+
+      - name: Setup Node.js 18 (for env reading, single)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
 
       - name: Determine domain from URL (single)
         if: ${{ inputs.target_site_url != '' }}
@@ -275,7 +281,6 @@ jobs:
           rsync -rlDz \
             --delete \
             --omit-dir-times \
-            --exclude='config.json' \
             --exclude='.user.ini' \
             --exclude='.well-known/' \
             --exclude='logs/' \
@@ -285,10 +290,3 @@ jobs:
       - name: Seed config.json if missing (first-time only)
         run: |
           rsync -avzr --ignore-existing ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}/
-
-      - name: Override with site-specific config.json if present (single)
-        if: ${{ inputs.target_site_url != '' }}
-        run: |
-          if [ -f "site_configs/${DEPLOY_DOMAIN}/config.json" ]; then
-            rsync -avzr "site_configs/${DEPLOY_DOMAIN}/config.json" ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}/config.json
-          fi
