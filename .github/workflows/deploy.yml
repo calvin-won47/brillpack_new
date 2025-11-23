@@ -126,7 +126,9 @@ jobs:
           # - { path: /www/wwwroot/client-c.com, url: https://client-c.com }
           #... 您可以在这里列出100个
 
+      max-parallel: 1
     steps:
+    
       - name: Checkout Code (for seeding config.json)
         uses: actions/checkout@v5
 
@@ -185,25 +187,43 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.BAOTA_SSH_PRIVATE_KEY }}
 
+      - name: Determine SSH port
+        run: |
+          PORT="${{ secrets.BAOTA_SSH_PORT }}"
+          if [ -z "$PORT" ]; then PORT=22; fi
+          echo "SSH_PORT=$PORT" >> $GITHUB_ENV
+
       - name: Add server to known_hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H ${{ secrets.BAOTA_SERVER_IP }} >> ~/.ssh/known_hosts
+          ssh-keyscan -p "$SSH_PORT" -H ${{ secrets.BAOTA_SERVER_IP }} >> ~/.ssh/known_hosts
+
+      - name: Test SSH connectivity
+        run: |
+          ssh -p "$SSH_PORT" -o BatchMode=yes -o ConnectTimeout=20 ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }} 'echo ok'
 
       - name: Deploy to ${{ matrix.site.path }} via rsync
         run: |
-          rsync -rlDz \
-            --delete \
-            --omit-dir-times \
-            --exclude='.user.ini' \
-            --exclude='.well-known/' \
-            --exclude='logs/' \
-            --exclude='ssl/' \
-            ./dist/ ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}
+          deploy() {
+            rsync -rlDz \
+              --delete \
+              --omit-dir-times \
+              --exclude='.user.ini' \
+              --exclude='.well-known/' \
+              --exclude='logs/' \
+              --exclude='ssl/' \
+              -e "ssh -p $SSH_PORT -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ConnectionAttempts=3" \
+              ./dist/ ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}
+          }
+          for i in 1 2 3; do
+            deploy && break || { echo "rsync failed, retry $i"; sleep $((5*i)); }
+          done
 
       - name: Seed config.json if missing (first-time only)
         run: |
-          rsync -avzr --ignore-existing ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}/
+          rsync -avzr --ignore-existing \
+            -e "ssh -p $SSH_PORT -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ConnectionAttempts=3" \
+            ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ matrix.site.path }}/
 
 
   # --- 作业 3: 仅部署到一个指定站点（手动触发用） ---
@@ -271,22 +291,40 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.BAOTA_SSH_PRIVATE_KEY }}
 
+      - name: Determine SSH port (single)
+        run: |
+          PORT="${{ secrets.BAOTA_SSH_PORT }}"
+          if [ -z "$PORT" ]; then PORT=22; fi
+          echo "SSH_PORT=$PORT" >> $GITHUB_ENV
+
       - name: Add server to known_hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -H ${{ secrets.BAOTA_SERVER_IP }} >> ~/.ssh/known_hosts
+          ssh-keyscan -p "$SSH_PORT" -H ${{ secrets.BAOTA_SERVER_IP }} >> ~/.ssh/known_hosts
+
+      - name: Test SSH connectivity (single)
+        run: |
+          ssh -p "$SSH_PORT" -o BatchMode=yes -o ConnectTimeout=20 ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }} 'echo ok'
 
       - name: Deploy to ${{ inputs.target_site_path }} via rsync
         run: |
-          rsync -rlDz \
-            --delete \
-            --omit-dir-times \
-            --exclude='.user.ini' \
-            --exclude='.well-known/' \
-            --exclude='logs/' \
-            --exclude='ssl/' \
-            ./dist/ ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}
+          deploy() {
+            rsync -rlDz \
+              --delete \
+              --omit-dir-times \
+              --exclude='.user.ini' \
+              --exclude='.well-known/' \
+              --exclude='logs/' \
+              --exclude='ssl/' \
+              -e "ssh -p $SSH_PORT -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ConnectionAttempts=3" \
+              ./dist/ ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}
+          }
+          for i in 1 2 3; do
+            deploy && break || { echo "rsync failed, retry $i"; sleep $((5*i)); }
+          done
 
       - name: Seed config.json if missing (first-time only)
         run: |
-          rsync -avzr --ignore-existing ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}/
+          rsync -avzr --ignore-existing \
+            -e "ssh -p $SSH_PORT -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=3 -o ConnectionAttempts=3" \
+            ./public/config.json ${{ secrets.BAOTA_SSH_USER }}@${{ secrets.BAOTA_SERVER_IP }}:${{ inputs.target_site_path }}/
