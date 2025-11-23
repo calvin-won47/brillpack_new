@@ -70,6 +70,59 @@ jobs:
           # 运行 'create_site.py' 后，您需要来这里添加新站点的路径与 URL
           - { path: /www/wwwroot/neolivex.com, url: https://neolivex.com }
           - { path: /www/wwwroot/qivonex.com, url: https://qivonex.com }
+          - { path: /www/wwwroot/rovexion.com, url: https://rovexion.com }
+          - { path: /www/wwwroot/exonivy.com, url: https://exonivy.com }
+          - { path: /www/wwwroot/futurebridgesystems.com, url: https://futurebridgesystems.com }
+          - { path: /www/wwwroot/greenpulsetechnologies.com, url: https://greenpulsetechnologies.com }
+          - { path: /www/wwwroot/xcelpathtech.com, url: https://xcelpathtech.com }
+          - { path: /www/wwwroot/ultrasynctechnologies.com, url: https://ultrasynctechnologies.com }
+          - { path: /www/wwwroot/techelevatesystems.com, url: https://techelevatesystems.com }
+          - { path: /www/wwwroot/omniwavetech.com, url: https://omniwavetech.com }
+
+          - { path: /www/wwwroot/jivoxo.com, url: https://jivoxo.com }
+          - { path: /www/wwwroot/zoxiva.com, url: https://zoxiva.com }
+          - { path: /www/wwwroot/fivoxo.com, url: https://fivoxo.com }
+          - { path: /www/wwwroot/vubira.com, url: https://vubira.com }
+          - { path: /www/wwwroot/tivaxo.com, url: https://tivaxo.com }
+          - { path: /www/wwwroot/rivuno.com, url: https://rivuno.com }
+          - { path: /www/wwwroot/mevixo.com, url: https://mevixo.com }
+          - { path: /www/wwwroot/dioxva.com, url: https://dioxva.com }
+          - { path: /www/wwwroot/zigixa.com, url: https://zigixa.com }
+          - { path: /www/wwwroot/lixovo.com, url: https://lixovo.com }
+
+          - { path: /www/wwwroot/kaleidopathtech.com, url: https://kaleidopathtech.com }
+          - { path: /www/wwwroot/glidewavetechnologies.com, url: https://glidewavetechnologies.com }
+          - { path: /www/wwwroot/pinnaclewavetech.com, url: https://pinnaclewavetech.com }
+          - { path: /www/wwwroot/luminousbridgesystems.com, url: https://luminousbridgesystems.com }
+          - { path: /www/wwwroot/cloudedgetechnologies.com, url: https://cloudedgetechnologies.com }
+          - { path: /www/wwwroot/neobridgeinnovations.com, url: https://neobridgeinnovations.com }
+          - { path: /www/wwwroot/kevixo.com, url: https://kevixo.com }
+          - { path: /www/wwwroot/livaxo.com, url: https://livaxo.com }
+          - { path: /www/wwwroot/sixivo.com, url: https://sixivo.com }
+          - { path: /www/wwwroot/soxiva.com, url: https://soxiva.com }
+
+          - { path: /www/wwwroot/tivuro.com, url: https://tivuro.com }
+          - { path: /www/wwwroot/diloxa.com, url: https://diloxa.com }
+          - { path: /www/wwwroot/muviro.com, url: https://muviro.com }
+          - { path: /www/wwwroot/jawexa.com, url: https://jawexa.com }
+          - { path: /www/wwwroot/etovix.com, url: https://etovix.com }
+          - { path: /www/wwwroot/povixa.com, url: https://povixa.com }
+          - { path: /www/wwwroot/pevixa.com, url: https://pevixa.com }
+          - { path: /www/wwwroot/cuvixa.com, url: https://cuvixa.com }
+          - { path: /www/wwwroot/yexiva.com, url: https://yexiva.com }
+          - { path: /www/wwwroot/bixoro.com, url: https://bixoro.com }
+
+          - { path: /www/wwwroot/kuvilo.com, url: https://kuvilo.com }
+          - { path: /www/wwwroot/sevaxo.com, url: https://sevaxo.com }
+          - { path: /www/wwwroot/yivoxa.com, url: https://yivoxa.com }
+          - { path: /www/wwwroot/poxiva.com, url: https://poxiva.com }
+          - { path: /www/wwwroot/javixa.com, url: https://javixa.com }
+          - { path: /www/wwwroot/cexiva.com, url: https://cexiva.com }
+          - { path: /www/wwwroot/dweeple.com, url: https://dweeple.com }
+          - { path: /www/wwwroot/dresszy.com, url: https://dresszy.com }
+          - { path: /www/wwwroot/pianozy.com, url: https://pianozy.com }
+          - { path: /www/wwwroot/chordzo.com, url: https://chordzo.com }
+
           # - { path: /www/wwwroot/client-c.com, url: https://client-c.com }
           #... 您可以在这里列出100个
 

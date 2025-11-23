@@ -1,0 +1,138 @@
+{
+  "basic": {
+    "app_name": "Artisanova",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "sevaxo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Artisanova - Marketplace for Artisanal and Handmade Goods",
+      "description": "Discover unique, handcrafted items from artisans around the world on Artisanova. Our curated marketplace offers high-quality products that celebrate creativity and craftsmanship.",
+      "keywords": "artisanal, handmade, crafts, marketplace, unique items, handcrafted, artisan products"
+    },
+    "hero": {
+      "slogan": "Celebrate Creativity and Craftsmanship",
+      "description": "Explore our collection of artisanal and handmade goods, curated with care to bring you the best in creativity and quality."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "sevaxo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Our Story",
+      "paragraph": "At Artisanova, we believe in the power of craftsmanship. Our platform connects art enthusiasts with artisans to showcase unique, handmade products that tell a story.",
+      "features": [
+        "Curated Collections",
+        "Support for Artisans",
+        "Unique and High-Quality Products"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Connecting Artisans with Enthusiasts",
+      "cards": [
+        {
+          "title": "Curated Marketplace",
+          "description": "Find a wide variety of artisanal and handmade goods, each with its own unique story and craftsmanship."
+        },
+        {
+          "title": "Support for Artisans",
+          "description": "We provide a platform for artisans to reach a broader audience and showcase their unique products."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Range",
+      "subheading": "Unique, Handcrafted Items",
+      "types": [
+        {
+          "name": "Home Decor",
+          "description": "Beautify your space with handcrafted decor items."
+        },
+        {
+          "name": "Jewelry",
+          "description": "Discover unique, artisan-made jewelry pieces."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "support@sevaxo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-123-4567",
+      "addressLabel": "Address",
+      "address": [
+        "123 Artisan Lane",
+        "Craftsville, CA 90210"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for contacting us! We'll get back to you shortly."
+    },
+    "footer": {
+      "brand": "Artisanova",
+      "tagline": "Crafting Connections",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Curated Marketplace",
+        "Artisan Support"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: support@sevaxo.com",
+        "Phone: +1-800-123-4567"
+      ],
+      "copyright": "© 2023 Artisanova. All rights reserved."
+    }
+  }
+}

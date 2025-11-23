@@ -1,0 +1,146 @@
+{
+  "basic": {
+    "app_name": "BridgeFusionTech",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "futurebridgesystems",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "BridgeFusionTech - Innovate and Integrate",
+      "description": "BridgeFusionTech provides cutting-edge B2B technology solutions and consultancy to integrate emerging technologies into your business.",
+      "keywords": "B2B, technology solutions, consultancy, IT infrastructure, cloud integration, IoT, AI analytics, digital transformation"
+    },
+    "hero": {
+      "slogan": "Innovate and Connect",
+      "description": "Empowering businesses with advanced technology integration and strategic consultancy for a future-ready operation."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "futurebridgesystems"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Who We Are",
+      "paragraph": "BridgeFusionTech is dedicated to bridging the gap between traditional business operations and the future of technology. Our expertise spans across various tech domains to provide comprehensive solutions.",
+      "features": [
+        "Innovative Solutions",
+        "Expert Consultancy",
+        "Strategic Integration",
+        "Future-Ready Systems"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Tailored Solutions for Your Business Needs",
+      "cards": [
+        {
+          "title": "IT Infrastructure Development",
+          "description": "Building robust and scalable IT infrastructures to support your business growth."
+        },
+        {
+          "title": "Cloud Integration",
+          "description": "Seamlessly transition to cloud-based solutions for improved efficiency and collaboration."
+        },
+        {
+          "title": "IoT Solutions",
+          "description": "Implementing IoT strategies to enhance connectivity and data insights."
+        },
+        {
+          "title": "AI-Driven Analytics",
+          "description": "Utilize AI to gain actionable insights and drive business decisions."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Products",
+      "subheading": "Cutting-Edge Technologies to Propel Your Business",
+      "types": [
+        {
+          "name": "BridgeAI",
+          "description": "An AI platform designed to optimize and automate your business processes."
+        },
+        {
+          "name": "CloudConnect",
+          "description": "A seamless cloud integration tool to ensure smooth operations."
+        }
+      ],
+      "ctaText": "Discover More"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "Reach out to us to discuss how we can assist your business with our technology solutions.",
+      "emailLabel": "Email",
+      "email": "contact@futurebridgesystems.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 (800) 123-4567",
+      "addressLabel": "Address",
+      "address": [
+        "123 Tech Avenue",
+        "Innovative City",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "BridgeFusionTech",
+      "tagline": "Innovate the Future",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Home"
+        },
+        {
+          "id": "2",
+          "label": "Services"
+        },
+        {
+          "id": "3",
+          "label": "Products"
+        },
+        {
+          "id": "4",
+          "label": "About Us"
+        },
+        {
+          "id": "5",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "IT Infrastructure",
+        "Cloud Solutions",
+        "IoT Integration",
+        "AI Analytics"
+      ],
+      "contactLabel": "Contact",
+      "contact": [
+        "Email: contact@futurebridgesystems.com",
+        "Phone: +1 (800) 123-4567"
+      ],
+      "copyright": "© 2023 BridgeFusionTech. All rights reserved."
+    }
+  }
+}

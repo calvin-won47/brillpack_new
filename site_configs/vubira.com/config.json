@@ -1,0 +1,139 @@
+{
+  "basic": {
+    "app_name": "ArtisanaVibe",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "vubira",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "ArtisanaVibe | Unique and Artisan Goods Marketplace",
+      "description": "Discover a world of unique, handcrafted, and artisan products at ArtisanaVibe. Support small businesses and find one-of-a-kind goods.",
+      "keywords": "artisan, handmade, unique gifts, eco-friendly, handcrafted, marketplace"
+    },
+    "hero": {
+      "slogan": "Discover Unique Artisan Goods",
+      "description": "Explore our curated collection of handcrafted products from talented artisans around the world."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "vubira"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Our Story",
+      "paragraph": "ArtisanaVibe was founded to bring unique, handcrafted products to customers who appreciate quality and craftsmanship.",
+      "features": [
+        "Unique Artisan Products",
+        "Sustainable Practices",
+        "Global Artisans"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "What We Offer",
+      "subheading": "Connecting Artisans and Enthusiasts",
+      "cards": [
+        {
+          "title": "Custom Product Listings",
+          "description": "Easily list your unique products and reach a dedicated audience."
+        },
+        {
+          "title": "Global Shipping Options",
+          "description": "Ship your products worldwide with our trusted partners."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Products",
+      "subheading": "Explore Our Unique Creations",
+      "types": [
+        {
+          "name": "Handmade Jewelry",
+          "description": "Discover stunning, one-of-a-kind jewelry pieces crafted by skilled artisans."
+        },
+        {
+          "name": "Home Decor",
+          "description": "Find unique decor items that add a personal touch to any space."
+        }
+      ],
+      "ctaText": "Browse All Products"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Please reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "support@vubira.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Artisan Lane",
+        "Craftsville, CA 98765"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "ArtisanaVibe",
+      "tagline": "Curated Artisan Goods",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Our Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Custom Product Listings",
+        "Global Shipping",
+        "Personalized Customer Support"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: support@vubira.com",
+        "Phone: +1-800-555-0199"
+      ],
+      "copyright": "© 2023 ArtisanaVibe. All rights reserved."
+    }
+  }
+}

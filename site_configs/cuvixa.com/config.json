@@ -1,0 +1,122 @@
+{
+  "basic": {
+    "app_name": "ArtVixa",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "cuvixa",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "ArtVixa - Creative Design & Visual Arts Marketplace",
+      "description": "Discover and purchase unique pieces of art or design. ArtVixa is a hub for artists and designers to showcase and sell their work.",
+      "keywords": "art, design, marketplace, creative, visual arts, digital art, illustrations, graphics"
+    },
+    "hero": {
+      "slogan": "Curate Your Digital Canvas",
+      "description": "Explore a vibrant collection of digital art and design pieces. Connect with talented artists and find inspiration for your next project."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "cuvixa"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to ArtVixa",
+      "paragraph": "ArtVixa is a creative design and visual arts marketplace, where artists and designers showcase their unique work.",
+      "features": [
+        "Curated Art Collections",
+        "Connect with Artists",
+        "Purchase Original Designs"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Explore Our Creative Services",
+      "subheading": "Custom Design Solutions",
+      "cards": [
+        {
+          "title": "Custom Illustrations",
+          "description": "Get personalized illustrations crafted by talented artists."
+        },
+        {
+          "title": "Graphic Design",
+          "description": "Professional graphic design services for your business needs."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Unique Art & Design Pieces",
+      "subheading": "Discover Our Curated Collections",
+      "types": [
+        {
+          "name": "Digital Art",
+          "description": "Explore a variety of digital artworks from emerging artists."
+        },
+        {
+          "name": "Print Designs",
+          "description": "High-quality print designs available for purchase."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you. Reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "support@artvixa.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-ARTV",
+      "addressLabel": "Address",
+      "address": [
+        "123 Art Lane",
+        "Creativity City, AR 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for contacting us. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "ArtVixa",
+      "tagline": "Curate Your Digital Canvas",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About"
+        }
+      ],
+      "servicesLabel": "Services",
+      "services": [
+        "Custom Illustrations",
+        "Graphic Design"
+      ],
+      "contactLabel": "Contact",
+      "contact": [
+        "support@artvixa.com",
+        "+1-800-555-ARTV"
+      ],
+      "copyright": "© 2023 ArtVixa. All rights reserved."
+    }
+  }
+}

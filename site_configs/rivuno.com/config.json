@@ -1,0 +1,112 @@
+{
+  "basic": {
+    "app_name": "RivuNest",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "rivuno",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "RivuNest - Your Marketplace for Sustainable Living",
+      "description": "Discover eco-friendly products for a sustainable lifestyle at RivuNest. Shop green and live consciously.",
+      "keywords": "eco-friendly, sustainable, green products, environmental, marketplace"
+    },
+    "hero": {
+      "slogan": "Shop Green, Live Consciously",
+      "description": "Find the best eco-friendly products to support your sustainable lifestyle."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "rivuno"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Eco-Friendly",
+      "heading": "About RivuNest",
+      "paragraph": "RivuNest is dedicated to providing eco-friendly products that support sustainable living. Our mission is to empower consumers to make environmentally conscious choices.",
+      "features": [
+        "Sustainable Products",
+        "Eco-Friendly Packaging",
+        "Carbon Neutral Shipping"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Committed to Sustainability",
+      "cards": [
+        {
+          "title": "Product Sourcing",
+          "description": "We carefully source products from sustainable brands around the world."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Eco Products",
+      "heading": "Our Products",
+      "subheading": "Choose Green",
+      "types": [
+        {
+          "name": "Household Goods",
+          "description": "Durable and eco-friendly options for everyday living."
+        }
+      ],
+      "ctaText": "Explore Our Eco-Friendly Collection"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you! Please reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "contact@rivuno.com",
+      "phoneLabel": "Phone",
+      "phone": "+1234567890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Green Lane",
+        "Eco City",
+        "Country"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "RivuNest",
+      "tagline": "Your Eco-Friendly Marketplace",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Home"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Product Sourcing",
+        "Eco-Friendly Consultancy",
+        "Custom Solutions"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: contact@rivuno.com",
+        "Phone: +1234567890"
+      ],
+      "copyright": "© 2023 RivuNest. All rights reserved."
+    }
+  }
+}

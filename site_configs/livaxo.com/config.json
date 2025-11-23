@@ -1,0 +1,145 @@
+{
+  "basic": {
+    "app_name": "Livaxium",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "livaxo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Livaxium - Your Health and Wellness Hub",
+      "description": "Discover a holistic approach to health and wellness with Livaxium. From fitness routines to mental health tips, we provide resources for a better lifestyle.",
+      "keywords": "health, wellness, fitness, nutrition, mental health, holistic living"
+    },
+    "hero": {
+      "slogan": "Embrace a Healthier You",
+      "description": "Join Livaxium and explore personalized wellness plans that fit your lifestyle. Elevate your well-being with expert guidance and community support."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "livaxo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to Livaxium",
+      "paragraph": "At Livaxium, we believe in empowering individuals to lead healthier lives. Our platform offers comprehensive resources, expert advice, and a supportive community to help you achieve your wellness goals.",
+      "features": [
+        "Expert Guidance",
+        "Community Support",
+        "Holistic Approach",
+        "Personalized Plans"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Comprehensive Wellness Solutions",
+      "subheading": "Tailored to Your Needs",
+      "cards": [
+        {
+          "title": "Fitness Programs",
+          "description": "Explore our range of fitness routines designed for all levels to help you stay active and healthy."
+        },
+        {
+          "title": "Nutrition Advice",
+          "description": "Get personalized nutrition tips and meal plans to enhance your dietary habits."
+        },
+        {
+          "title": "Mental Health Support",
+          "description": "Access resources and support for maintaining mental well-being and resilience."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Wellness Products",
+      "subheading": "Enhance Your Lifestyle",
+      "types": [
+        {
+          "name": "Yoga Mats",
+          "description": "Premium quality mats for your yoga and meditation practices."
+        },
+        {
+          "name": "Nutritional Supplements",
+          "description": "Boost your health with our curated selection of supplements."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch with Us",
+      "description": "We're here to help. Reach out to us with any questions or concerns.",
+      "emailLabel": "Email",
+      "email": "support@livaxo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Wellness Ave",
+        "Suite 101",
+        "Healthy City, HC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully. We'll get back to you shortly."
+    },
+    "footer": {
+      "brand": "Livaxium",
+      "tagline": "Your Partner in Wellness",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Fitness Programs",
+        "Nutrition Advice",
+        "Mental Health Support"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: support@livaxo.com",
+        "Phone: +1-800-555-0199"
+      ],
+      "copyright": "© 2023 Livaxium. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "basic": {
+    "app_name": "Artisanique",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "mevixo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Artisanique - Your Marketplace for Unique Handmade Goods",
+      "description": "Discover a diverse range of artisanal and handmade products at Artisanique. Support small businesses and find one-of-a-kind items crafted with care.",
+      "keywords": "artisanal, handmade, unique, marketplace, crafts, small business"
+    },
+    "hero": {
+      "slogan": "Embrace Uniqueness",
+      "description": "Explore a world of handcrafted treasures curated just for you."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "mevixo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Crafting Connections",
+      "paragraph": "At Artisanique, we bridge the gap between creators and admirers of unique handmade goods. Our platform celebrates creativity and individuality.",
+      "features": [
+        "Unique Handmade Products",
+        "Support for Artisans",
+        "Quality and Craftsmanship"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Services Tailored for You",
+      "subheading": "Empowering Artisans and Enthusiasts",
+      "cards": [
+        {
+          "title": "Market Access",
+          "description": "Provide artisans with a platform to showcase and sell their creations."
+        },
+        {
+          "title": "Curated Selections",
+          "description": "Offer a carefully curated range of unique products for our customers."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Unique & Handcrafted",
+      "subheading": "Discover a World of Creativity",
+      "types": [
+        {
+          "name": "Jewelry",
+          "description": "Handcrafted jewelry pieces that speak to your individuality."
+        },
+        {
+          "name": "Home Decor",
+          "description": "Unique decor items to transform your living space."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Reach out to us with any questions or inquiries.",
+      "emailLabel": "Email",
+      "email": "support@mevixo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-ARTS",
+      "addressLabel": "Address",
+      "address": [
+        "123 Artisan St.",
+        "Craftsville",
+        "Artland, 45678"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Artisanique",
+      "tagline": "Crafting Connections, Inspiring Creations",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Market Access",
+        "Curated Selections"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "+1-800-555-ARTS",
+        "support@mevixo.com"
+      ],
+      "copyright": "© 2023 Artisanique. All rights reserved."
+    }
+  }
+}

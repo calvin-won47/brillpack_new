@@ -1,0 +1,136 @@
+{
+  "basic": {
+    "app_name": "Kevixplore",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kevixo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Kevixplore - Online Learning Platform",
+      "description": "Kevixplore offers a wide range of online courses focusing on creative and technical skills. Empower your career with our expert-led content.",
+      "keywords": "online learning, creative skills, technical skills, courses, upskill, education"
+    },
+    "hero": {
+      "slogan": "Explore, Learn, Excel",
+      "description": "Join Kevixplore and enhance your creative and technical skills with expert-led online courses designed for ambitious professionals and students."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kevixo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Courses",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to Kevixplore",
+      "paragraph": "Kevixplore is your gateway to mastering creative and technical skills online. Our platform is tailored for aspiring professionals and students who aim to excel in their careers.",
+      "features": [
+        "Expert Instructors",
+        "Flexible Learning",
+        "Career Advancement"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Tailored Learning Experiences",
+      "cards": [
+        {
+          "title": "Graphic Design",
+          "description": "Learn the fundamentals of graphic design and elevate your creative skills."
+        },
+        {
+          "title": "Web Development",
+          "description": "Master web development with our comprehensive coding courses."
+        },
+        {
+          "title": "Digital Marketing",
+          "description": "Boost your career with our digital marketing strategies and techniques."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Courses",
+      "heading": "Explore Our Courses",
+      "subheading": "Find the Right Course for You",
+      "types": [
+        {
+          "name": "Graphic Design",
+          "description": "Courses on Photoshop, Illustrator, and more."
+        },
+        {
+          "name": "Web Development",
+          "description": "HTML, CSS, JavaScript, and advanced frameworks."
+        },
+        {
+          "name": "Digital Marketing",
+          "description": "SEO, content marketing, and social media strategies."
+        }
+      ],
+      "ctaText": "Start Learning Today"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you! Reach out to us for any inquiries or support.",
+      "emailLabel": "Email",
+      "email": "support@kevixo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 (800) 555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Creative St.",
+        "Innovation City",
+        "Techland 45678"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for contacting us! We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "Kevixplore",
+      "tagline": "Explore, Learn, Excel",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Privacy Policy"
+        },
+        {
+          "id": "2",
+          "label": "Terms of Service"
+        },
+        {
+          "id": "3",
+          "label": "FAQ"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Graphic Design",
+        "Web Development",
+        "Digital Marketing"
+      ],
+      "contactLabel": "Contact",
+      "contact": [
+        "Email: support@kevixo.com",
+        "Phone: +1 (800) 555-0199"
+      ],
+      "copyright": "© 2023 Kevixplore. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "basic": {
+    "app_name": "Chordify",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "chordzo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Chordify - Your Online Music Learning Platform",
+      "description": "Learn chords and improve your music skills with Chordify - the ultimate online platform for music learners.",
+      "keywords": "music, chords, online learning, guitar, piano, ukulele, tutorials"
+    },
+    "hero": {
+      "slogan": "Unleash Your Inner Musician",
+      "description": "Join Chordify and embark on your musical journey with interactive lessons and a vibrant community."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "chordzo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quick Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Welcome to Chordify",
+      "paragraph": "Chordify is your go-to platform for mastering chords and enhancing your musical prowess.",
+      "features": [
+        "Interactive Tutorials",
+        "Community Support",
+        "Progress Tracking"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "Our Services",
+      "subheading": "Tailored Learning Experiences",
+      "cards": [
+        {
+          "title": "Video Tutorials",
+          "description": "Access a wide range of video tutorials for different instruments."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Products",
+      "subheading": "Enhance Your Learning",
+      "types": [
+        {
+          "name": "Interactive Chord Sheets",
+          "description": "Dynamic chord sheets to aid your practice sessions."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "Reach out to us with any questions or comments. We'd love to hear from you!",
+      "emailLabel": "Email",
+      "email": "support@chordzo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-CHORD",
+      "addressLabel": "Address",
+      "address": [
+        "123 Music Lane",
+        "Harmony City, CA 90001",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Chordify",
+      "tagline": "Empowering Your Musical Journey",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Video Tutorials",
+        "Interactive Sheets"
+      ],
+      "contactLabel": "Contact",
+      "contact": [
+        "support@chordzo.com",
+        "+1-800-555-CHORD"
+      ],
+      "copyright": "© 2023 Chordify. All Rights Reserved."
+    }
+  }
+}

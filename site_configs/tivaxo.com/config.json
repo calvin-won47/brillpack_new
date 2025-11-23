@@ -1,0 +1,149 @@
+{
+  "basic": {
+    "app_name": "Tivarti",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "tivaxo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Tivarti - Artisanal and Unique Products Marketplace",
+      "description": "Discover and purchase unique, handmade, and artisanal products from independent sellers on Tivarti. Elevate your lifestyle with one-of-a-kind items.",
+      "keywords": "artisanal products, unique marketplace, handmade items, bespoke goods, creative marketplace"
+    },
+    "hero": {
+      "slogan": "Discover the Unique",
+      "description": "Explore Tivarti, your online marketplace for distinctive and handcrafted products. Connect with artisans and find the perfect piece that speaks to you."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "tivaxo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Our Story",
+      "heading": "About Tivarti",
+      "paragraph": "At Tivarti, we believe in the power of uniqueness. Our platform connects discerning shoppers with artisans offering quality, handmade products that stand out.",
+      "features": [
+        "Curated Selection",
+        "Support Independent Artists",
+        "Quality Craftsmanship",
+        "Unique Finds"
+      ]
+    },
+    "services": {
+      "badge": "What We Offer",
+      "heading": "Our Services",
+      "subheading": "Connecting Artisans and Shoppers",
+      "cards": [
+        {
+          "title": "Curated Marketplace",
+          "description": "A carefully curated selection of unique and artisanal products."
+        },
+        {
+          "title": "Community Engagement",
+          "description": "Join a community of like-minded individuals passionate about unique products."
+        },
+        {
+          "title": "Secure Transactions",
+          "description": "Safe and secure payment options for peace of mind."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Distinctive and Unique",
+      "subheading": "Explore Our Categories",
+      "types": [
+        {
+          "name": "Handmade Jewelry",
+          "description": "Exquisite pieces crafted by talented artisans."
+        },
+        {
+          "name": "Bespoke Furniture",
+          "description": "Custom furniture that adds a unique touch to any space."
+        },
+        {
+          "name": "Exclusive Art Pieces",
+          "description": "Original artwork to enhance your collection."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Get In Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you! Reach out to us for any inquiries or support.",
+      "emailLabel": "Email",
+      "email": "info@tivarti.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Artisan Lane",
+        "Craft City, CC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Tivarti",
+      "tagline": "Discover the Unique",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Curated Marketplace",
+        "Community Engagement",
+        "Secure Transactions"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "info@tivarti.com",
+        "+1-800-555-0199",
+        "123 Artisan Lane, Craft City, CC 12345"
+      ],
+      "copyright": "© 2023 Tivarti. All rights reserved."
+    }
+  }
+}

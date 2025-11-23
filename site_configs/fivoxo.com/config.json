@@ -1,0 +1,128 @@
+{
+  "basic": {
+    "app_name": "Voxique",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "fivoxo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Voxique - Unique and Customizable Products Marketplace",
+      "description": "Discover and shop unique, customizable products at Voxique. Connect with artisans and explore a diverse range of personalized items.",
+      "keywords": "unique products, customizable items, online marketplace, personalized gifts, artisan crafts"
+    },
+    "hero": {
+      "slogan": "Express Your Uniqueness",
+      "description": "Explore a world of customizable and unique products, crafted with creativity and passion."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "fivoxo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to Voxique",
+      "paragraph": "Voxique is your destination for unique, customizable products. We connect creative individuals with artisans to deliver personalized items that speak to your style.",
+      "features": [
+        "Diverse product categories",
+        "Customizable solutions",
+        "Artisan craftsmanship",
+        "Unique shopping experience"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Discover Our Unique Range",
+      "cards": [
+        {
+          "title": "Custom Orders",
+          "description": "Create personalized items tailored to your preferences."
+        },
+        {
+          "title": "Artisan Collaborations",
+          "description": "Partner with skilled craftspeople to bring your ideas to life."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Collection",
+      "subheading": "Find Your Unique Style",
+      "types": [
+        {
+          "name": "Personalized Gifts",
+          "description": "Thoughtful gifts that can be customized for any occasion."
+        },
+        {
+          "name": "Home Decor",
+          "description": "Unique decor pieces to personalize your living space."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "support@fivoxo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 (555) 123-4567",
+      "addressLabel": "Address",
+      "address": [
+        "123 Marketplace Lane",
+        "Innovation City, TX 75001"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank you!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Voxique",
+      "tagline": "Your Marketplace for Unique Products",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Home"
+        },
+        {
+          "id": "2",
+          "label": "Shop"
+        },
+        {
+          "id": "3",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Custom Orders",
+        "Artisan Collaborations",
+        "Bespoke Solutions"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "support@fivoxo.com",
+        "+1 (555) 123-4567"
+      ],
+      "copyright": "© 2023 Voxique. All Rights Reserved."
+    }
+  }
+}

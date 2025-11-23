@@ -1,0 +1,140 @@
+{
+  "basic": {
+    "app_name": "Visaligna",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "povixa",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Visaligna - Data Visualization & Analytics Platform",
+      "description": "Visaligna offers powerful tools for visualizing data from different perspectives, ideal for businesses and data analysts.",
+      "keywords": "data visualization, analytics, SaaS, dashboards, reports, data analysis"
+    },
+    "hero": {
+      "slogan": "Transform Data into Insightful Visuals",
+      "description": "Leverage our advanced tools to create compelling visual analytics and dashboards that drive data-driven decisions."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "povixa"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Innovative Data Visualization",
+      "paragraph": "At Visaligna, we are committed to providing cutting-edge solutions for data visualization and analysis, empowering decision-makers with actionable insights.",
+      "features": [
+        "Advanced Analytics Tools",
+        "Customizable Dashboards",
+        "Real-time Data Processing",
+        "User-friendly Interface"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Comprehensive Data Solutions",
+      "subheading": "Tailored to Your Needs",
+      "cards": [
+        {
+          "title": "Custom Dashboards",
+          "description": "Create and customize dashboards to monitor key metrics and insights."
+        },
+        {
+          "title": "Data Integration",
+          "description": "Seamlessly integrate with various data sources for unified analysis."
+        },
+        {
+          "title": "Predictive Analytics",
+          "description": "Utilize advanced algorithms to forecast trends and outcomes."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Tools for Every Analyst",
+      "subheading": "Empowering Your Data Journey",
+      "types": [
+        {
+          "name": "Visaligna Pro",
+          "description": "Advanced features for professional data analysts."
+        },
+        {
+          "name": "Visaligna Lite",
+          "description": "Simplified tools for beginners and educators."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get In Touch",
+      "description": "We would love to hear from you. Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all your questions.",
+      "emailLabel": "Email",
+      "email": "support@povixa.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Innovation Drive",
+        "Tech City, TX 75001"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out to us. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "Visaligna",
+      "tagline": "Visualize. Analyze. Succeed.",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Custom Dashboards",
+        "Data Integration",
+        "Predictive Analytics"
+      ],
+      "contactLabel": "Contact Info",
+      "contact": [
+        "Email: support@povixa.com",
+        "Phone: +1-800-555-0199"
+      ],
+      "copyright": "© 2023 Visaligna. All Rights Reserved."
+    }
+  }
+}

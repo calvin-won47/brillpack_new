@@ -1,17 +1,17 @@
 {
   "basic": {
-    "app_name": "QivexChange",
+    "app_name": "QivoInsight",
     "strapi_url": "https://2amcreations.com",
     "strapi_site_slug": "qivonex",
     "gtmId": "GTM-58TDPTJ3",
     "seo": {
-      "title": "QivexChange - Cryptocurrency Exchange Platform",
-      "description": "Join QivexChange, the cutting-edge cryptocurrency exchange platform designed for tech-savvy traders and investors. Experience seamless trading with innovative features.",
-      "keywords": "cryptocurrency, exchange, trading, digital assets, blockchain, fintech, QivexChange"
+      "title": "QivoInsight - Cryptocurrency & Blockchain SaaS Platform",
+      "description": "Explore cutting-edge insights and analytics for cryptocurrency and blockchain with QivoInsight.",
+      "keywords": "cryptocurrency, blockchain, SaaS, analytics, insights, trading, investment"
     },
     "hero": {
-      "slogan": "Trade Smart, Trade Secure",
-      "description": "Welcome to QivexChange, your gateway to the world of cryptocurrency trading. Explore our platform and start your crypto journey today."
+      "slogan": "Navigate the World of Cryptocurrency with Ease",
+      "description": "QivoInsight provides advanced tools and insights for cryptocurrency traders, investors, and developers."
     }
   },
   "apiEndpoints": {
@@ -21,60 +21,68 @@
   "extra": {
     "nav": {
       "home": "Home",
-      "about": "About Us",
+      "about": "About",
       "services": "Services",
       "products": "Products",
-      "contact": "Contact Us",
+      "contact": "Contact",
       "blog": "Blog",
-      "quickQuote": "Get a Quote"
+      "quickQuote": "Quick Quote"
     },
     "about": {
-      "badge": "About",
-      "heading": "About QivexChange",
-      "paragraph": "QivexChange is a leading cryptocurrency exchange platform, providing secure and innovative solutions for digital asset trading.",
+      "badge": "About Us",
+      "heading": "Empowering Your Cryptocurrency Journey",
+      "paragraph": "At QivoInsight, we are dedicated to providing state-of-the-art tools and analytics to empower your cryptocurrency trading and investment decisions.",
       "features": [
-        "Secure transactions",
-        "User-friendly interface",
-        "24/7 customer support",
-        "Advanced trading tools"
+        "Real-time data analysis",
+        "Advanced trading tools",
+        "Comprehensive market insights",
+        "User-friendly interface"
       ]
     },
     "services": {
-      "badge": "Services",
-      "heading": "Our Services",
-      "subheading": "Comprehensive Crypto Solutions",
+      "badge": "Our Services",
+      "heading": "Comprehensive Cryptocurrency Solutions",
+      "subheading": "Unlock the Power of Blockchain with Our Services",
       "cards": [
         {
-          "title": "Crypto Trading",
-          "description": "Access a wide range of digital currencies and trade with confidence on our secure platform."
+          "title": "Data Analytics",
+          "description": "Harness the power of real-time analytics for smarter trading decisions."
+        },
+        {
+          "title": "Trading Insights",
+          "description": "Stay ahead with our cutting-edge insights and market trends."
         }
       ]
     },
     "products": {
-      "badge": "Products",
-      "heading": "Our Products",
-      "subheading": "Innovative Trading Solutions",
+      "badge": "Our Products",
+      "heading": "Innovative Tools for the Modern Trader",
+      "subheading": "Explore Our Suite of Advanced Products",
       "types": [
         {
-          "name": "Spot Trading",
-          "description": "Engage in real-time trading of cryptocurrencies with our spot market."
+          "name": "Insight Dashboard",
+          "description": "A comprehensive dashboard for monitoring cryptocurrency trends and data."
+        },
+        {
+          "name": "Portfolio Manager",
+          "description": "Manage your investments with ease using our portfolio tools."
         }
       ],
-      "ctaText": "Explore Our Products"
+      "ctaText": "Discover Our Products"
     },
     "contact": {
-      "badge": "Contact",
-      "heading": "Get in Touch",
-      "description": "Reach out to us for any queries or support. Our team is here to help you.",
-      "emailLabel": "Email Us",
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We are here to assist you with any inquiries or support you may need.",
+      "emailLabel": "Email",
       "email": "support@qivonex.com",
-      "phoneLabel": "Call Us",
-      "phone": "+1-800-555-0199",
-      "addressLabel": "Our Address",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-123-4567",
+      "addressLabel": "Address",
       "address": [
-        "123 Crypto Lane",
-        "Blockchain City, BC 12345",
-        "Country"
+        "123 Blockchain Lane",
+        "Tech City, TX 12345",
+        "USA"
       ],
       "placeholders": {
         "name": "Your Name",
@@ -84,11 +92,11 @@
       },
       "submitText": "Send Message",
       "toastTitle": "Message Sent",
-      "toastDescription": "Thank you for reaching out. We will get back to you shortly."
+      "toastDescription": "Thank you for contacting us. We will respond shortly."
     },
     "footer": {
-      "brand": "QivexChange",
-      "tagline": "Trade Smart, Trade Secure",
+      "brand": "QivoInsight",
+      "tagline": "Leading the Way in Cryptocurrency Insights",
       "quickLinksLabel": "Quick Links",
       "quickLinks": [
         {
@@ -109,21 +117,21 @@
         },
         {
           "id": "contact",
-          "label": "Contact Us"
+          "label": "Contact"
         }
       ],
-      "servicesLabel": "Our Services",
+      "servicesLabel": "Services",
       "services": [
-        "Crypto Trading",
-        "Market Analysis",
-        "Portfolio Management"
+        "Data Analytics",
+        "Trading Insights",
+        "Market Research"
       ],
-      "contactLabel": "Contact Information",
+      "contactLabel": "Contact",
       "contact": [
-        "Email: support@qivonex.com",
-        "Phone: +1-800-555-0199"
+        "support@qivonex.com",
+        "+1-800-123-4567"
       ],
-      "copyright": "© 2023 QivexChange. All rights reserved."
+      "copyright": "© 2023 QivoInsight. All rights reserved."
     }
   }
 }

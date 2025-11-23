@@ -1,0 +1,137 @@
+{
+  "basic": {
+    "app_name": "VivaSo",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "soxiva",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "VivaSo - Your Path to Wellness",
+      "description": "Explore a lifestyle and wellness platform dedicated to enhancing your quality of life.",
+      "keywords": "wellness, lifestyle, health, fitness, nutrition, holistic living"
+    },
+    "hero": {
+      "slogan": "Live Vigorously",
+      "description": "Join us on a journey towards a healthier, more vibrant life with insights, community, and products that inspire."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "soxiva"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Discover",
+      "heading": "About VivaSo",
+      "paragraph": "VivaSo is committed to empowering individuals on their wellness journey through insightful content and community support.",
+      "features": [
+        "Personalized wellness plans",
+        "Expert articles and videos",
+        "Community support"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Wellness Services",
+      "subheading": "Empower Your Lifestyle",
+      "cards": [
+        {
+          "title": "Nutrition Counseling",
+          "description": "Personalized nutrition plans to fuel your body."
+        },
+        {
+          "title": "Fitness Coaching",
+          "description": "Guided fitness programs to strengthen and energize."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Wellness Products",
+      "subheading": "Enhance Your Well-being",
+      "types": [
+        {
+          "name": "Organic Supplements",
+          "description": "Boost your health with our range of organic vitamins and supplements."
+        },
+        {
+          "name": "Fitness Gear",
+          "description": "High-quality equipment to support your fitness goals."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you! Reach out with any questions or feedback.",
+      "emailLabel": "Email",
+      "email": "contact@soxiva.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Wellness Way",
+        "Suite 100",
+        "Healthy City, HC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "VivaSo",
+      "tagline": "Live Life Vigorously",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Nutrition Counseling",
+        "Fitness Coaching",
+        "Holistic Workshops"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: contact@soxiva.com",
+        "Phone: +1-800-555-0199",
+        "Address: 123 Wellness Way, Suite 100, Healthy City, HC 12345"
+      ],
+      "copyright": "© 2023 VivaSo. All rights reserved."
+    }
+  }
+}

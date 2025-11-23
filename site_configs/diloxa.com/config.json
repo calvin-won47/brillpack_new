@@ -1,0 +1,146 @@
+{
+  "basic": {
+    "app_name": "DiloxaWell",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "diloxa",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Diloxa - Your Health and Wellness Platform",
+      "description": "Explore health, wellness, and lifestyle improvements on Diloxa. Discover content, products, and services for a better you.",
+      "keywords": "health, wellness, lifestyle, mental well-being, physical well-being"
+    },
+    "hero": {
+      "slogan": "Embrace a Healthier Life",
+      "description": "Join Diloxa on a journey to improve your mental and physical well-being with expert advice and quality products."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "diloxa"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quick Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Who We Are",
+      "paragraph": "Diloxa is dedicated to enhancing your health and wellness journey with holistic solutions.",
+      "features": [
+        "Expert Guidance",
+        "Quality Products",
+        "Personalized Advice",
+        "Community Support"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "Our Wellness Services",
+      "subheading": "Holistic Approaches for a Better You",
+      "cards": [
+        {
+          "title": "Nutrition Counseling",
+          "description": "Personalized nutrition plans to fuel your body."
+        },
+        {
+          "title": "Fitness Coaching",
+          "description": "Tailored workouts for every fitness level."
+        },
+        {
+          "title": "Mental Health Support",
+          "description": "Tools and resources to enhance your mental well-being."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Wellness Products",
+      "subheading": "Handpicked Essentials for Your Well-being",
+      "types": [
+        {
+          "name": "Vitamins & Supplements",
+          "description": "Boost your health with our range of supplements."
+        },
+        {
+          "name": "Fitness Gear",
+          "description": "Equip yourself with the best gear for your workouts."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Reach out with any questions or feedback.",
+      "emailLabel": "Email Us",
+      "email": "info@diloxa.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Visit Us",
+      "address": [
+        "123 Wellness Ave",
+        "Suite 100",
+        "Health City, HC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been successfully sent."
+    },
+    "footer": {
+      "brand": "Diloxa",
+      "tagline": "Your Wellness, Our Commitment",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Nutrition Counseling",
+        "Fitness Coaching",
+        "Mental Health Support"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "info@diloxa.com",
+        "+1-800-555-0199",
+        "123 Wellness Ave, Suite 100, Health City, HC 12345"
+      ],
+      "copyright": "© 2023 Diloxa. All rights reserved."
+    }
+  }
+}

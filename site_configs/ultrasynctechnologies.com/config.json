@@ -1,0 +1,141 @@
+{
+  "basic": {
+    "app_name": "UltraSyncra",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "ultrasynctechnologies",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "UltraSync Technologies - B2B Technology Solutions",
+      "description": "Discover cutting-edge B2B technology solutions for seamless integration and synchronization.",
+      "keywords": "B2B technology, synchronization solutions, cloud integration, enterprise software"
+    },
+    "hero": {
+      "slogan": "Synchronize Your Business Future",
+      "description": "Empowering businesses with advanced synchronization technologies for enhanced operational efficiency."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "ultrasynctechnologies"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About UltraSyncra",
+      "heading": "Leading in Synchronization Technology",
+      "paragraph": "At UltraSyncra, we specialize in providing advanced technology solutions that synchronize and enhance business processes.",
+      "features": [
+        "Seamless Integration",
+        "Cutting-edge Technology",
+        "Tailored Solutions",
+        "Expert Support"
+      ]
+    },
+    "services": {
+      "badge": "Our Expertise",
+      "heading": "Comprehensive Technology Solutions",
+      "subheading": "Innovative Services for Seamless Integration",
+      "cards": [
+        {
+          "title": "Cloud Integration",
+          "description": "Robust solutions for integrating cloud services with your existing systems."
+        },
+        {
+          "title": "IoT Management",
+          "description": "Efficient management and synchronization of IoT devices across networks."
+        },
+        {
+          "title": "Enterprise Software",
+          "description": "Custom software solutions designed to streamline business operations."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Innovations",
+      "heading": "State-of-the-Art Products",
+      "subheading": "Technological Products Designed for Excellence",
+      "types": [
+        {
+          "name": "SyncPro",
+          "description": "A powerful tool for data synchronization across multiple platforms."
+        },
+        {
+          "name": "CloudSync",
+          "description": "Our cloud-based solution for integrating and managing cloud services."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact UltraSyncra",
+      "description": "We're here to provide you with more information and answer any questions you may have.",
+      "emailLabel": "Email",
+      "email": "info@ultrasynctechnologies.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-123-4567",
+      "addressLabel": "Address",
+      "address": [
+        "123 Tech Lane",
+        "Innovation City",
+        "Techland, TX 75001"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank you!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "UltraSyncra",
+      "tagline": "Synchronize Your Success",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Our Services"
+        },
+        {
+          "id": "products",
+          "label": "Our Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Cloud Integration",
+        "IoT Management",
+        "Enterprise Software"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: info@ultrasynctechnologies.com",
+        "Phone: +1-800-123-4567"
+      ],
+      "copyright": "© 2023 UltraSyncra. All rights reserved."
+    }
+  }
+}

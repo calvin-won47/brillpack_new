@@ -1,0 +1,128 @@
+{
+  "basic": {
+    "app_name": "Dressify",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "dresszy",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Dressify - Your Ultimate Fashion Destination",
+      "description": "Discover the latest trends in fashion at Dressify. Shop stylish apparel for men and women online.",
+      "keywords": "fashion, online shopping, clothing, trendy, apparel, dresszy"
+    },
+    "hero": {
+      "slogan": "Fashion at Your Fingertips",
+      "description": "Explore our exclusive collection of trendy outfits and elevate your style with Dressify."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "dresszy"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "blog": "Our Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Who We Are",
+      "paragraph": "Dressify is your go-to destination for the latest in fashion. Our mission is to provide stylish and affordable apparel for everyone.",
+      "features": [
+        "Trendy Designs",
+        "Affordable Prices",
+        "Worldwide Shipping"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "Our Services",
+      "subheading": "What We Offer",
+      "cards": [
+        {
+          "title": "Personal Styling",
+          "description": "Get personalized fashion advice from our expert stylists."
+        },
+        {
+          "title": "Custom Tailoring",
+          "description": "Enjoy custom tailoring services to ensure a perfect fit."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Products",
+      "subheading": "Explore Our Collection",
+      "types": [
+        {
+          "name": "Casual Wear",
+          "description": "Comfortable and stylish outfits for everyday wear."
+        },
+        {
+          "name": "Formal Attire",
+          "description": "Elegant and sophisticated clothing for special occasions."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "Have questions? We're here to help! Contact us via email or phone.",
+      "emailLabel": "Email",
+      "email": "support@dresszy.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Fashion Ave",
+        "New York, NY 10001",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent. We'll get back to you soon."
+    },
+    "footer": {
+      "brand": "Dressify",
+      "tagline": "Dress to Impress",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Home"
+        },
+        {
+          "id": "2",
+          "label": "Shop"
+        },
+        {
+          "id": "3",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Personal Styling",
+        "Custom Tailoring",
+        "Gift Cards"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "support@dresszy.com",
+        "+1-800-555-0199"
+      ],
+      "copyright": "© 2023 Dressify. All rights reserved."
+    }
+  }
+}

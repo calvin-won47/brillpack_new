@@ -1,0 +1,136 @@
+{
+  "basic": {
+    "app_name": "CodeVenture",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "javixa",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "CodeVenture - Learn and Master Programming",
+      "description": "Join CodeVenture, the ultimate online programming community and learning platform. Enhance your skills with resources, tutorials, and courses.",
+      "keywords": "programming, Java, coding, learning platform, tutorials, courses, technology"
+    },
+    "hero": {
+      "slogan": "Embark on Your Coding Journey",
+      "description": "Discover the world of programming with our comprehensive resources and supportive community. Start learning today!"
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "javixa"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to CodeVenture",
+      "paragraph": "At CodeVenture, we're committed to providing the best programming learning experience. Connect, learn, and grow with us.",
+      "features": [
+        "Comprehensive Courses",
+        "Expert Instructors",
+        "Community Support",
+        "Flexible Learning"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Explore Our Services",
+      "cards": [
+        {
+          "title": "Interactive Courses",
+          "description": "Engage with interactive courses designed to enhance your learning experience."
+        },
+        {
+          "title": "Community Forums",
+          "description": "Join discussions, ask questions, and connect with fellow learners."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Products",
+      "subheading": "Enhance Your Learning",
+      "types": [
+        {
+          "name": "Java Beginner Course",
+          "description": "Start your Java journey with our beginner-friendly course."
+        },
+        {
+          "name": "Advanced Java",
+          "description": "Take your Java skills to the next level with advanced concepts."
+        }
+      ],
+      "ctaText": "View All Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you. Reach out to us for any inquiries or support.",
+      "emailLabel": "Email",
+      "email": "support@javixa.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Code Street",
+        "Tech City, TC 54321"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "CodeVenture",
+      "tagline": "Your Gateway to Programming Mastery",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Interactive Courses",
+        "Community Forums",
+        "Expert Guidance"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "support@javixa.com",
+        "+1-800-555-0199"
+      ],
+      "copyright": "© 2023 CodeVenture. All rights reserved."
+    }
+  }
+}

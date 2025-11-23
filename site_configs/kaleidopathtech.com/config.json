@@ -1,0 +1,141 @@
+{
+  "basic": {
+    "app_name": "KaleidoPathix",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kaleidopathtech",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "KaleidoPathix - Innovative Healthcare Technology",
+      "description": "Explore advanced and transformative technology solutions in healthcare and pathology with KaleidoPathix.",
+      "keywords": "healthcare technology, pathology solutions, medical tech, diagnostic innovations"
+    },
+    "hero": {
+      "slogan": "Innovative Solutions for Tomorrow's Healthcare",
+      "description": "Discover the next generation of healthcare technology with KaleidoPathix, where innovation meets precision."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kaleidopathtech"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Transforming Healthcare Through Technology",
+      "paragraph": "At KaleidoPathix, we are dedicated to revolutionizing healthcare diagnostics with innovative technology solutions.",
+      "features": [
+        "Cutting-edge technology",
+        "Comprehensive solutions",
+        "Expert team"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Comprehensive Healthcare Solutions",
+      "subheading": "Enhancing Diagnostics and Efficiency",
+      "cards": [
+        {
+          "title": "Pathology Solutions",
+          "description": "Advanced tools and technologies for accurate diagnostics."
+        },
+        {
+          "title": "Healthcare IT",
+          "description": "Integrated systems to streamline healthcare operations."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Innovative Products",
+      "subheading": "Leading the Future of Healthcare Technology",
+      "types": [
+        {
+          "name": "Digital Pathology",
+          "description": "State-of-the-art digital tools for pathology labs."
+        },
+        {
+          "name": "AI Diagnostics",
+          "description": "Artificial intelligence solutions for faster, more accurate diagnostics."
+        }
+      ],
+      "ctaText": "Discover Our Products"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We are here to assist you with any inquiries or support you may need.",
+      "emailLabel": "Email",
+      "email": "contact@kaleidopathtech.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 234 567 890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Innovation Drive",
+        "Tech City, TC 12345",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been successfully sent. We will contact you soon."
+    },
+    "footer": {
+      "brand": "KaleidoPathix",
+      "tagline": "Innovating Healthcare, One Solution at a Time",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Pathology Solutions",
+        "Healthcare IT",
+        "AI Diagnostics"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "Email: contact@kaleidopathtech.com",
+        "Phone: +1 234 567 890",
+        "Address: 123 Innovation Drive, Tech City, TC 12345, USA"
+      ],
+      "copyright": "© 2023 KaleidoPathix. All rights reserved."
+    }
+  }
+}

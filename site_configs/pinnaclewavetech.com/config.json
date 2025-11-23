@@ -1,0 +1,137 @@
+{
+  "basic": {
+    "app_name": "PinnovateWave",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "pinnaclewavetech",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "PinnovateWave - Leading Edge Technology Solutions",
+      "description": "Explore advanced technology solutions with PinnovateWave, your partner in digital transformation and innovation.",
+      "keywords": "technology, innovation, AI, machine learning, IoT, digital transformation"
+    },
+    "hero": {
+      "slogan": "Innovating the Future",
+      "description": "Join us in pioneering cutting-edge technology solutions that drive progress and transform industries."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "pinnaclewavetech"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Who We Are",
+      "paragraph": "PinnovateWave is at the forefront of technology innovation, delivering state-of-the-art solutions to businesses around the globe.",
+      "features": [
+        "Innovative Solutions",
+        "Expert Consultancy",
+        "Future-Ready Technologies",
+        "Comprehensive Support"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "Our Expertise",
+      "subheading": "Delivering Excellence in Technology",
+      "cards": [
+        {
+          "title": "AI & Machine Learning",
+          "description": "Harness the power of artificial intelligence to enhance decision-making and optimize operations."
+        },
+        {
+          "title": "IoT Solutions",
+          "description": "Connect and automate your business processes with our comprehensive IoT solutions."
+        },
+        {
+          "title": "Digital Transformation",
+          "description": "Revolutionize your business with our tailored digital transformation services."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Product Line",
+      "subheading": "Innovative Products for Modern Businesses",
+      "types": [
+        {
+          "name": "WaveAI Platform",
+          "description": "A cutting-edge platform for integrating AI into your business processes."
+        },
+        {
+          "name": "Pinnacle IoT Hub",
+          "description": "Centralized control and management for all your IoT devices."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "We're here to help you with your technology needs. Contact us for more information.",
+      "emailLabel": "Email Us",
+      "email": "info@pinnaclewavetech.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Visit Us",
+      "address": [
+        "123 Innovation Drive",
+        "Tech City, TX 75001",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank you!",
+      "toastDescription": "Your message has been successfully sent. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "PinnovateWave",
+      "tagline": "Pioneering the Future of Technology",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "services",
+          "label": "Our Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Services",
+      "services": [
+        "AI & Machine Learning",
+        "IoT Solutions",
+        "Digital Transformation"
+      ],
+      "contactLabel": "Contact",
+      "contact": [
+        "+1-800-555-0199",
+        "info@pinnaclewavetech.com"
+      ],
+      "copyright": "© 2023 PinnovateWave. All rights reserved."
+    }
+  }
+}

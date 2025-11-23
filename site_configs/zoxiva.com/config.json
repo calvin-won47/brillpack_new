@@ -1,0 +1,132 @@
+{
+  "basic": {
+    "app_name": "Zoxivita",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "zoxiva",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Zoxivita - Your Wellness and Holistic Health Platform",
+      "description": "Discover a world of wellness with Zoxivita. Explore holistic health solutions, natural supplements, mindfulness resources, and more.",
+      "keywords": "wellness, holistic health, natural supplements, mindfulness, Zoxivita"
+    },
+    "hero": {
+      "slogan": "Embrace Wellness, Embrace Life",
+      "description": "At Zoxivita, we provide innovative wellness solutions for a healthier, more balanced lifestyle."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "zoxiva"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Discover",
+      "heading": "About Zoxivita",
+      "paragraph": "Zoxivita is dedicated to transforming lives through a holistic approach to wellness. Our goal is to empower individuals to lead healthier, more balanced lives.",
+      "features": [
+        "Comprehensive Wellness Solutions",
+        "Expert Holistic Advice",
+        "Innovative Health Products"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Holistic Services for You",
+      "subheading": "Explore our wide range of services designed to enhance your well-being.",
+      "cards": [
+        {
+          "title": "Personalized Health Plans",
+          "description": "Get tailored health plans that suit your individual needs."
+        },
+        {
+          "title": "Mindfulness Workshops",
+          "description": "Participate in workshops that promote mental clarity and well-being."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Curated Wellness Products",
+      "subheading": "Discover our selection of health and wellness products tailored for you.",
+      "types": [
+        {
+          "name": "Natural Supplements",
+          "description": "Boost your health with our range of natural supplements."
+        },
+        {
+          "name": "Holistic Health Kits",
+          "description": "Experience comprehensive wellness with our curated health kits."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We are here to assist you with any inquiries you may have. Reach out to us!",
+      "emailLabel": "Email",
+      "email": "support@zoxiva.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Wellness Blvd.",
+        "Suite 100",
+        "Health City, HC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out to us. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "Zoxivita",
+      "tagline": "Your Path to Holistic Health",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Health Plans",
+        "Workshops",
+        "Consultations"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "Email: support@zoxiva.com",
+        "Phone: +1-800-555-0199"
+      ],
+      "copyright": "© 2023 Zoxivita. All rights reserved."
+    }
+  }
+}

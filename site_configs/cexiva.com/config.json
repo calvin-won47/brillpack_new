@@ -1,0 +1,149 @@
+{
+  "basic": {
+    "app_name": "Cexivana",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "cexiva",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Cexivana - Marketplace for Exclusive and Innovative Products",
+      "description": "Discover unique, high-quality products on Cexivana, the online marketplace for exclusive and innovative items.",
+      "keywords": "exclusive, innovative, marketplace, unique products, tech gadgets, artisanal crafts, fashion, home goods"
+    },
+    "hero": {
+      "slogan": "Discover the Exceptional",
+      "description": "Explore a curated selection of unique and innovative products that set you apart from the crowd."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "cexiva"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to Cexivana",
+      "paragraph": "At Cexivana, we specialize in bringing you the most exclusive and innovative products from around the world. Our platform is designed for trendsetters and early adopters who value originality and quality.",
+      "features": [
+        "Exclusive Product Range",
+        "Innovative Designs",
+        "High-Quality Standards",
+        "Curated Selections"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Discover Our Unique Services",
+      "cards": [
+        {
+          "title": "Curated Marketplace",
+          "description": "Find exclusive products carefully selected for their uniqueness and quality."
+        },
+        {
+          "title": "Premium Customer Support",
+          "description": "Experience top-notch support from our dedicated team."
+        },
+        {
+          "title": "Secure Shopping",
+          "description": "Enjoy a safe and secure shopping experience with us."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Unique Products",
+      "subheading": "Discover Items That Set You Apart",
+      "types": [
+        {
+          "name": "Tech Gadgets",
+          "description": "Innovative gadgets that bring the future to your fingertips."
+        },
+        {
+          "name": "Artisanal Crafts",
+          "description": "Handmade crafts that showcase creativity and skill."
+        },
+        {
+          "name": "Fashion",
+          "description": "Exclusive fashion items that make a statement."
+        },
+        {
+          "name": "Home Goods",
+          "description": "Unique items to enhance your living space."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you! Reach out to us for any inquiries or assistance.",
+      "emailLabel": "Email",
+      "email": "support@cexiva.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-123-4567",
+      "addressLabel": "Address",
+      "address": [
+        "123 Innovation Drive",
+        "Suite 456",
+        "Tech City, TX 78901"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Cexivana",
+      "tagline": "Discover the Exceptional",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Curated Marketplace",
+        "Premium Customer Support",
+        "Secure Shopping"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "+1-800-123-4567",
+        "support@cexiva.com"
+      ],
+      "copyright": "© 2023 Cexivana. All Rights Reserved."
+    }
+  }
+}

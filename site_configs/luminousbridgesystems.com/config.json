@@ -1,0 +1,147 @@
+{
+  "basic": {
+    "app_name": "LumiBridge",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "luminousbridgesystems",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "LumiBridge - Engineering Consultancy for Bridge Illumination",
+      "description": "LumiBridge offers innovative lighting solutions for bridges, combining aesthetics with functionality. Explore our expertise in energy-efficient and smart lighting systems.",
+      "keywords": "bridge illumination, engineering consultancy, lighting systems, smart lighting, energy-efficient lighting, architectural lighting design"
+    },
+    "hero": {
+      "slogan": "Illuminating Bridges, Inspiring Innovations",
+      "description": "LumiBridge specializes in designing and implementing cutting-edge lighting systems for bridges, enhancing their beauty and safety."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "luminousbridgesystems"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Leading the Way in Bridge Illumination",
+      "paragraph": "At LumiBridge, we bring together engineering excellence and innovative lighting design to transform bridges into luminous landmarks.",
+      "features": [
+        "Expert Engineering Team",
+        "Innovative Lighting Solutions",
+        "Sustainable Practices",
+        "Client-Centric Approach"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Comprehensive Lighting Solutions",
+      "subheading": "From Design to Implementation",
+      "cards": [
+        {
+          "title": "Lighting Design",
+          "description": "Creating bespoke lighting designs that enhance the aesthetic appeal and functionality of bridges."
+        },
+        {
+          "title": "Installation & Maintenance",
+          "description": "Ensuring flawless installation and ongoing maintenance for optimal performance of lighting systems."
+        },
+        {
+          "title": "Energy Efficiency Consulting",
+          "description": "Advising on energy-efficient lighting technologies to reduce environmental impact and operational costs."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Innovative Lighting Products",
+      "subheading": "Tailored for Bridge Illumination",
+      "types": [
+        {
+          "name": "Smart Lighting Systems",
+          "description": "Advanced systems offering remote control and automated lighting solutions."
+        },
+        {
+          "name": "LED Lighting",
+          "description": "High-efficiency LED lights for sustainable and long-lasting illumination."
+        }
+      ],
+      "ctaText": "Discover Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you! Reach out to discuss your next bridge illumination project.",
+      "emailLabel": "Email",
+      "email": "info@luminousbridgesystems.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Bridge Lane",
+        "Suite 456",
+        "Cityscape",
+        "CA 90210",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been successfully sent. We will get back to you soon!"
+    },
+    "footer": {
+      "brand": "LumiBridge",
+      "tagline": "Bridging Light and Innovation",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Home"
+        },
+        {
+          "id": "2",
+          "label": "About"
+        },
+        {
+          "id": "3",
+          "label": "Services"
+        },
+        {
+          "id": "4",
+          "label": "Products"
+        },
+        {
+          "id": "5",
+          "label": "Contact"
+        },
+        {
+          "id": "6",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Lighting Design",
+        "Installation & Maintenance",
+        "Energy Efficiency Consulting"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "info@luminousbridgesystems.com",
+        "+1-800-555-0199"
+      ],
+      "copyright": "© 2023 LumiBridge. All rights reserved."
+    }
+  }
+}

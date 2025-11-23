@@ -1,0 +1,135 @@
+{
+  "basic": {
+    "app_name": "OmniWaveFusion",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "omniwavetech",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "OmniWaveFusion - Innovating Sound and Wave Technology",
+      "description": "Discover cutting-edge solutions in sound engineering and wave technology with OmniWaveFusion.",
+      "keywords": "sound engineering, wave technology, audio solutions, tech innovations"
+    },
+    "hero": {
+      "slogan": "Harness the Power of Waves",
+      "description": "Providing innovative solutions in sound engineering and wave technology."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "omniwavetech"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Leading the Wave Revolution",
+      "paragraph": "OmniWaveFusion is at the forefront of sound and wave technology, offering innovative solutions for a tech-driven world.",
+      "features": [
+        "Advanced Wave Technology",
+        "Innovative Sound Solutions",
+        "Cutting-edge Tech Development"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Transformative Tech Services",
+      "subheading": "Pioneering sound and wave technology solutions.",
+      "cards": [
+        {
+          "title": "Wave Analysis",
+          "description": "In-depth analysis and solutions for all types of waveforms."
+        },
+        {
+          "title": "Sound Engineering",
+          "description": "Expertise in sound design and engineering for various applications."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Innovative Tech Products",
+      "subheading": "Explore our range of advanced technology products.",
+      "types": [
+        {
+          "name": "Audio Processor",
+          "description": "State-of-the-art processing for superior audio quality."
+        },
+        {
+          "name": "Wave Simulator",
+          "description": "Simulate and manipulate waveforms for diverse tech applications."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "Reach out to us for inquiries, support, or collaboration opportunities.",
+      "emailLabel": "Email",
+      "email": "contact@omniwavetech.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-OMNI",
+      "addressLabel": "Address",
+      "address": [
+        "123 Tech Lane",
+        "Innovation City",
+        "Techland"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been successfully sent."
+    },
+    "footer": {
+      "brand": "OmniWaveFusion",
+      "tagline": "Pioneering the Future of Wave Technology",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Wave Analysis",
+        "Sound Engineering"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "Email: contact@omniwavetech.com",
+        "Phone: +1-800-555-OMNI"
+      ],
+      "copyright": "© 2023 OmniWaveFusion. All rights reserved."
+    }
+  }
+}

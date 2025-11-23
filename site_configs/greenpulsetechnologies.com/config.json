@@ -1,0 +1,136 @@
+{
+  "basic": {
+    "app_name": "EcoPulseTech",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "greenpulsetechnologies",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "EcoPulseTech - Sustainable Technology Solutions",
+      "description": "Discover innovative and eco-friendly technology solutions with EcoPulseTech, your partner in creating a sustainable future.",
+      "keywords": "sustainable technology, green tech, eco-friendly solutions, renewable energy, energy efficiency"
+    },
+    "hero": {
+      "slogan": "Innovating for a Greener Tomorrow",
+      "description": "At EcoPulseTech, we harness the power of technology to provide sustainable solutions for a healthier planet."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "greenpulsetechnologies"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Leading the Way in Sustainable Tech",
+      "paragraph": "EcoPulseTech is dedicated to providing cutting-edge technology solutions that promote sustainability and reduce environmental impact.",
+      "features": [
+        "Innovative Solutions",
+        "Eco-Friendly Designs",
+        "Global Impact"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Sustainable Technology Services",
+      "subheading": "Tailored Solutions for a Greener Future",
+      "cards": [
+        {
+          "title": "Renewable Energy Systems",
+          "description": "Implementing efficient renewable energy solutions to power your operations sustainably."
+        },
+        {
+          "title": "Energy Efficiency Consulting",
+          "description": "Optimizing your energy usage for maximum efficiency and minimal environmental impact."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Eco-Friendly Technology Products",
+      "subheading": "Innovative Products for a Sustainable Tomorrow",
+      "types": [
+        {
+          "name": "Solar Panels",
+          "description": "High-efficiency solar panels designed to harness the power of the sun."
+        },
+        {
+          "name": "Smart Home Devices",
+          "description": "Intelligent technology for a connected and eco-friendly home."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch with EcoPulseTech",
+      "description": "Reach out to us for more information on our sustainable technology solutions.",
+      "emailLabel": "Email",
+      "email": "info@greenpulsetechnologies.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 234 567 890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Green Lane",
+        "Sustainability City",
+        "EcoState, 56789"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "EcoPulseTech",
+      "tagline": "Innovating for a Greener Tomorrow",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Renewable Energy Systems",
+        "Energy Efficiency Consulting"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "info@greenpulsetechnologies.com",
+        "+1 234 567 890",
+        "123 Green Lane, Sustainability City"
+      ],
+      "copyright": "© 2023 EcoPulseTech. All rights reserved."
+    }
+  }
+}

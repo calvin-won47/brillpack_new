@@ -1,0 +1,141 @@
+{
+  "basic": {
+    "app_name": "NeobridgeXpert",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "neobridgeinnovations",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Neobridge Innovations - B2B Consulting and Solutions",
+      "description": "Bridge the gap between traditional practices and cutting-edge technologies with Neobridge Innovations. We provide innovative solutions and consultancy services for digital transformation and tech integration.",
+      "keywords": "B2B consulting, digital transformation, tech integration, innovation workshops"
+    },
+    "hero": {
+      "slogan": "Innovate, Integrate, Transform",
+      "description": "Empowering businesses with cutting-edge solutions to thrive in the digital age."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "neobridgeinnovations"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Who We Are",
+      "paragraph": "At Neobridge Innovations, we specialize in bridging the gap between traditional business practices and modern technology. Our team of experts provides innovative solutions designed to drive your business forward.",
+      "features": [
+        "Expert Consulting",
+        "Tech Integration",
+        "Innovation Workshops"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Tailored Solutions for Your Business Needs",
+      "cards": [
+        {
+          "title": "Digital Transformation",
+          "description": "Guiding your business through the process of digital transformation with comprehensive strategies and expert advice."
+        },
+        {
+          "title": "Tech Integration",
+          "description": "Seamless integration of cutting-edge technologies into your existing infrastructure."
+        },
+        {
+          "title": "Innovation Workshops",
+          "description": "Workshops designed to spark creativity and drive innovation within your team."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Innovative Solutions",
+      "subheading": "Products Designed to Enhance Your Business",
+      "types": [
+        {
+          "name": "NeoConnect",
+          "description": "A platform that facilitates seamless communication and collaboration within your organization."
+        },
+        {
+          "name": "BridgeTech",
+          "description": "A suite of tools designed to integrate modern technologies with your existing systems."
+        }
+      ],
+      "ctaText": "Discover Our Products"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you. Reach out to us for inquiries, support, or collaborations.",
+      "emailLabel": "Email",
+      "email": "contact@neobridgeinnovations.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-0199",
+      "addressLabel": "Address",
+      "address": [
+        "123 Innovation Drive",
+        "Tech City, TC 12345",
+        "USA"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully. We'll get back to you soon."
+    },
+    "footer": {
+      "brand": "Neobridge Innovations",
+      "tagline": "Bridging Ideas and Technologies",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Digital Transformation",
+        "Tech Integration",
+        "Innovation Workshops"
+      ],
+      "contactLabel": "Contact Info",
+      "contact": [
+        "Email: contact@neobridgeinnovations.com",
+        "Phone: +1-800-555-0199",
+        "Address: 123 Innovation Drive, Tech City, TC 12345, USA"
+      ],
+      "copyright": "© 2023 Neobridge Innovations. All rights reserved."
+    }
+  }
+}

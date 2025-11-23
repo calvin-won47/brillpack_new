@@ -1,0 +1,137 @@
+{
+  "basic": {
+    "app_name": "Rovexia",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "rovexion",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Rovexia - Your Gateway to Adventure",
+      "description": "Discover unique travel experiences with Rovexia. Book your next adventure today!",
+      "keywords": "travel, adventure, booking, exploration, tours, unique experiences"
+    },
+    "hero": {
+      "slogan": "Unleash Your Adventure",
+      "description": "Explore the world with our curated travel experiences, designed for adventurers and explorers."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "rovexion"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Rovexia",
+      "heading": "Our Story",
+      "paragraph": "Rovexia is dedicated to bringing you unforgettable travel experiences around the globe.",
+      "features": [
+        "Unique Destinations",
+        "Adventure Tours",
+        "Cultural Experiences",
+        "Eco-Friendly Options"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Explore Our Wide Range of Travel Services",
+      "cards": [
+        {
+          "title": "Adventure Travel",
+          "description": "Thrilling adventures tailored for thrill-seekers."
+        },
+        {
+          "title": "Cultural Tours",
+          "description": "Immerse yourself in local cultures and traditions."
+        },
+        {
+          "title": "Eco-Friendly Options",
+          "description": "Travel sustainably with our eco-friendly packages."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Discover Our Tours",
+      "subheading": "Curated Travel Experiences for Every Adventurer",
+      "types": [
+        {
+          "name": "Solo Travel",
+          "description": "Find peace and adventure on your own terms."
+        },
+        {
+          "name": "Group Tours",
+          "description": "Share the journey with like-minded explorers."
+        }
+      ],
+      "ctaText": "Explore More Tours"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you! Reach out for inquiries or support.",
+      "emailLabel": "Email",
+      "email": "support@rovexion.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-800-555-TRVL",
+      "addressLabel": "Address",
+      "address": [
+        "123 Adventure Lane",
+        "Exploration City",
+        "Travelscape"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent!",
+      "toastDescription": "Thank you for reaching out. We'll get back to you soon."
+    },
+    "footer": {
+      "brand": "Rovexia",
+      "tagline": "Your Gateway to Adventure",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Adventure Travel",
+        "Cultural Tours",
+        "Eco-Friendly Options"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "support@rovexion.com",
+        "+1-800-555-TRVL"
+      ],
+      "copyright": "© 2023 Rovexia. All rights reserved."
+    }
+  }
+}

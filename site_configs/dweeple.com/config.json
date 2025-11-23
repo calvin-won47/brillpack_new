@@ -1,0 +1,122 @@
+{
+  "basic": {
+    "app_name": "Dweelink",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "dweeple",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Dweelink - Connect and Engage",
+      "description": "Dweelink is a vibrant social networking platform designed for unique communities and genuine connections.",
+      "keywords": "social networking, community, connections, young adults, millennials, niche interests"
+    },
+    "hero": {
+      "slogan": "Where Connections Thrive",
+      "description": "Discover a place where like-minded individuals come together to share, discuss, and connect on Dweelink."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "dweeple"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About",
+      "heading": "Welcome to Dweelink",
+      "paragraph": "Dweelink is more than just a social network; it's a place where communities flourish and genuine connections are made.",
+      "features": [
+        "Inclusive Community",
+        "Unique Discussions",
+        "Genuine Connections"
+      ]
+    },
+    "services": {
+      "badge": "Services",
+      "heading": "What We Offer",
+      "subheading": "Connecting People, Creating Communities",
+      "cards": [
+        {
+          "title": "Community Building",
+          "description": "Form and nurture communities around shared interests and passions."
+        },
+        {
+          "title": "Engagement Tools",
+          "description": "Use our tools to engage and interact with community members effectively."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Products",
+      "heading": "Our Offerings",
+      "subheading": "Discover Our Unique Features",
+      "types": [
+        {
+          "name": "Interest Groups",
+          "description": "Join or create groups tailored to specific interests or hobbies."
+        },
+        {
+          "name": "Event Hosting",
+          "description": "Organize and participate in events that matter to you."
+        }
+      ],
+      "ctaText": "Explore Our Features"
+    },
+    "contact": {
+      "badge": "Contact",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you! Reach out with any questions or feedback.",
+      "emailLabel": "Email Us",
+      "email": "contact@dweeple.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1-800-123-4567",
+      "addressLabel": "Our Address",
+      "address": [
+        "123 Community Lane",
+        "Network City, NC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent!",
+      "toastDescription": "Thank you for reaching out. We will get back to you soon."
+    },
+    "footer": {
+      "brand": "Dweelink",
+      "tagline": "Connecting People, Creating Communities",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "1",
+          "label": "Privacy Policy"
+        },
+        {
+          "id": "2",
+          "label": "Terms of Service"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Community Building",
+        "Event Hosting"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: contact@dweeple.com",
+        "Phone: +1-800-123-4567"
+      ],
+      "copyright": "© 2023 Dweelink. All rights reserved."
+    }
+  }
+}

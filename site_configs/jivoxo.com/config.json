@@ -1,0 +1,150 @@
+{
+  "basic": {
+    "app_name": "Jivolife",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "jivoxo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Jivolife - Your Health and Wellness Hub",
+      "description": "Discover a holistic approach to health and wellness with Jivolife. Explore expert articles, video tutorials, and a marketplace for wellness products.",
+      "keywords": "health, wellness, fitness, nutrition, holistic care, mental health"
+    },
+    "hero": {
+      "slogan": "Enhance Your Life Quality",
+      "description": "Join our community for a comprehensive approach to physical and mental well-being. Access resources, services, and support to live a healthier life."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "jivoxo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "products": "Wellness Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quick Quote"
+    },
+    "about": {
+      "badge": "About Jivolife",
+      "heading": "Welcome to Jivolife",
+      "paragraph": "At Jivolife, we are dedicated to helping you achieve a balanced and fulfilling lifestyle. Our platform offers resources and community support for all your health and wellness needs.",
+      "features": [
+        "Expert Articles",
+        "Video Tutorials",
+        "Community Forums",
+        "Personalized Wellness Plans"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Holistic Wellness Services",
+      "subheading": "Personalized Plans for Your Well-being",
+      "cards": [
+        {
+          "title": "Nutrition Consulting",
+          "description": "Work with our nutrition experts to create a personalized diet plan that suits your lifestyle."
+        },
+        {
+          "title": "Fitness Training",
+          "description": "Join our fitness programs to enhance your physical health with tailored workout plans."
+        },
+        {
+          "title": "Mental Health Support",
+          "description": "Access mental health resources and connect with professionals for guidance and support."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Wellness Marketplace",
+      "subheading": "Curated Products for Your Health",
+      "types": [
+        {
+          "name": "Organic Supplements",
+          "description": "Boost your health with our range of organic vitamins and supplements."
+        },
+        {
+          "name": "Fitness Gear",
+          "description": "Find the best equipment and apparel to support your fitness journey."
+        },
+        {
+          "name": "Holistic Care Products",
+          "description": "Explore our selection of products designed for holistic healing and relaxation."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We'd love to hear from you! Reach out to us for inquiries, support, or feedback.",
+      "emailLabel": "Email",
+      "email": "support@jivoxo.com",
+      "phoneLabel": "Phone",
+      "phone": "+1234567890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Wellness Way",
+        "Health City",
+        "Wellness State, 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out to us. We will get back to you soon."
+    },
+    "footer": {
+      "brand": "Jivolife",
+      "tagline": "Your Path to Better Health",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Nutrition Consulting",
+        "Fitness Training",
+        "Mental Health Support"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: support@jivoxo.com",
+        "Phone: +1234567890",
+        "Address: 123 Wellness Way, Health City, Wellness State, 12345"
+      ],
+      "copyright": "© 2023 Jivolife. All rights reserved."
+    }
+  }
+}

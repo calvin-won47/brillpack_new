@@ -1,0 +1,128 @@
+{
+  "basic": {
+    "app_name": "Yexscape",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "yexiva",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Yexiva - Unique Experiences Marketplace",
+      "description": "Discover unique and memorable experiences with Yexiva. Explore adventure, culinary, educational, and travel activities.",
+      "keywords": "unique experiences, adventure, travel, culinary, educational, marketplace"
+    },
+    "hero": {
+      "slogan": "Unveil Unique Experiences",
+      "description": "Dive into a world of exclusive activities and adventures curated just for you."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "yexiva"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "Our Mission",
+      "heading": "About Yexiva",
+      "paragraph": "At Yexiva, we believe in crafting unforgettable experiences that bring joy and excitement to our community.",
+      "features": [
+        "Exotic Destinations",
+        "Unique Culinary Experiences",
+        "Adventure Activities",
+        "Cultural Immersions"
+      ]
+    },
+    "services": {
+      "badge": "Our Offerings",
+      "heading": "What We Offer",
+      "subheading": "A Variety of Experiences",
+      "cards": [
+        {
+          "title": "Adventure Trips",
+          "description": "Embark on thrilling adventures around the globe."
+        },
+        {
+          "title": "Culinary Tours",
+          "description": "Savor the world’s finest cuisines through curated culinary tours."
+        },
+        {
+          "title": "Cultural Immersions",
+          "description": "Immerse yourself in local cultures and traditions."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Experiences",
+      "heading": "Explore Our Products",
+      "subheading": "Handpicked for You",
+      "types": [
+        {
+          "name": "Travel Adventures",
+          "description": "Discover new places and thrilling adventures."
+        },
+        {
+          "name": "Gastronomic Journeys",
+          "description": "Indulge in culinary delights from around the world."
+        }
+      ],
+      "ctaText": "Explore Now"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We would love to hear from you! Reach out with any questions or inquiries.",
+      "emailLabel": "Email Us",
+      "email": "contact@yexiva.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1 234 567 890",
+      "addressLabel": "Visit Us",
+      "address": [
+        "123 Experience Lane",
+        "Adventure City, AC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "Yexiva",
+      "tagline": "Experience the Extraordinary",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Adventure Trips",
+        "Culinary Tours",
+        "Cultural Immersions"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: contact@yexiva.com",
+        "Phone: +1 234 567 890"
+      ],
+      "copyright": "© 2023 Yexiva. All rights reserved."
+    }
+  }
+}

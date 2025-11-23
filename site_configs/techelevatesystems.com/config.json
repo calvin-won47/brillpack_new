@@ -1,0 +1,142 @@
+{
+  "basic": {
+    "app_name": "ElevatechSystems",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "techelevatesystems",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "ElevatechSystems - Elevate Your Technology",
+      "description": "ElevatechSystems offers cutting-edge technology consulting and solutions to enhance your business infrastructure.",
+      "keywords": "technology consulting, IT solutions, systems integration, cloud solutions, digital transformation"
+    },
+    "hero": {
+      "slogan": "Elevate Your Technology",
+      "description": "Partner with us to transform and optimize your technology systems for operational excellence and growth."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "techelevatesystems"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Who We Are",
+      "paragraph": "ElevatechSystems is dedicated to elevating your technology systems with innovative solutions and expert consulting.",
+      "features": [
+        "Expert IT Consulting",
+        "Custom Solutions",
+        "Comprehensive System Integration",
+        "Proven Track Record"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Comprehensive and Customized Technology Solutions",
+      "cards": [
+        {
+          "title": "IT Consulting",
+          "description": "Strategic guidance to optimize and transform your IT infrastructure."
+        },
+        {
+          "title": "Cloud Solutions",
+          "description": "Leverage cloud technologies for scalable and flexible IT environments."
+        },
+        {
+          "title": "Systems Integration",
+          "description": "Seamlessly integrate systems for improved efficiency and performance."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Solutions",
+      "subheading": "Innovative Products for Modern Enterprises",
+      "types": [
+        {
+          "name": "Cloud Platform",
+          "description": "A robust platform for deploying and managing cloud applications."
+        },
+        {
+          "name": "Integration Suite",
+          "description": "Tools to connect and integrate diverse systems across your organization."
+        }
+      ],
+      "ctaText": "Discover Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get In Touch",
+      "description": "We'd love to hear from you. Reach out to us for any inquiries or support.",
+      "emailLabel": "Email",
+      "email": "contact@techelevatesystems.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-234-567-8900",
+      "addressLabel": "Address",
+      "address": [
+        "123 Tech Avenue",
+        "Suite 100",
+        "Tech City, TX 78901"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Submit",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "ElevatechSystems",
+      "tagline": "Elevate Your Technology",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "IT Consulting",
+        "Cloud Solutions",
+        "Systems Integration"
+      ],
+      "contactLabel": "Contact Info",
+      "contact": [
+        "Email: contact@techelevatesystems.com",
+        "Phone: +1-234-567-8900",
+        "Address: 123 Tech Avenue, Suite 100, Tech City, TX 78901"
+      ],
+      "copyright": "© 2023 ElevatechSystems. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "basic": {
+    "app_name": "Pianovate",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "pianozy",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Pianovate - Learn Piano Online",
+      "description": "Pianovate is your ultimate online platform for learning piano with interactive lessons, tutorials, and community support.",
+      "keywords": "piano, online piano lessons, learn piano, piano tutorials, piano exercises"
+    },
+    "hero": {
+      "slogan": "Unlock Your Musical Potential",
+      "description": "Join Pianovate today and start your journey to mastering the piano with our engaging and flexible online courses."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "pianozy"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quick Quote"
+    },
+    "about": {
+      "badge": "About Pianovate",
+      "heading": "Welcome to Pianovate",
+      "paragraph": "At Pianovate, we believe in making piano learning accessible and enjoyable for everyone. Our platform offers a comprehensive range of resources to help you learn at your own pace.",
+      "features": [
+        "Interactive Lessons",
+        "Video Tutorials",
+        "Sheet Music Library",
+        "Community Forums"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Comprehensive Piano Learning",
+      "cards": [
+        {
+          "title": "Interactive Lessons",
+          "description": "Engage with our step-by-step lessons designed to take you from beginner to advanced levels."
+        },
+        {
+          "title": "Video Tutorials",
+          "description": "Watch and learn from our extensive library of video tutorials taught by expert pianists."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Products",
+      "subheading": "Enhance Your Learning",
+      "types": [
+        {
+          "name": "Sheet Music Collection",
+          "description": "Access a wide range of sheet music for various genres and skill levels."
+        },
+        {
+          "name": "Practice Exercises",
+          "description": "Improve your skills with targeted practice exercises tailored to your level."
+        }
+      ],
+      "ctaText": "Start Learning Today"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get in Touch",
+      "description": "We're here to help! Reach out to us with any queries or feedback.",
+      "emailLabel": "Email",
+      "email": "support@pianozy.com",
+      "phoneLabel": "Phone",
+      "phone": "+1 234 567 8901",
+      "addressLabel": "Address",
+      "address": [
+        "123 Piano Lane",
+        "Music City",
+        "Country"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone Number",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Message Sent",
+      "toastDescription": "Thank you for reaching out! We will get back to you soon."
+    },
+    "footer": {
+      "brand": "Pianovate",
+      "tagline": "Empowering Your Musical Journey",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Interactive Lessons",
+        "Video Tutorials",
+        "Community Support"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "Email: support@pianozy.com",
+        "Phone: +1 234 567 8901"
+      ],
+      "copyright": "© 2023 Pianovate. All rights reserved."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "basic": {
+    "app_name": "Kuviloft",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kuvilo",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Kuviloft - Elevate Your Productivity",
+      "description": "Kuviloft is a cutting-edge productivity tool designed to help you organize, manage, and optimize your workflow effortlessly.",
+      "keywords": "productivity, organizational tool, task management, scheduling, collaboration"
+    },
+    "hero": {
+      "slogan": "Boost Your Productivity",
+      "description": "Kuviloft provides you with the tools necessary to enhance efficiency, streamline tasks, and achieve your goals."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "kuvilo"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to Kuviloft",
+      "paragraph": "Kuviloft is dedicated to providing top-tier productivity solutions tailored to meet the needs of modern professionals.",
+      "features": [
+        "Task Management",
+        "Seamless Integration",
+        "Real-time Collaboration",
+        "Customizable Workflows"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Productivity Solutions",
+      "subheading": "Enhance Your Efficiency",
+      "cards": [
+        {
+          "title": "Task Management",
+          "description": "Organize your tasks with ease and efficiency, ensuring nothing is overlooked."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Work together with your team in real-time, no matter where you are."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Innovative Tools",
+      "subheading": "Tools for Every Need",
+      "types": [
+        {
+          "name": "Kuviloft Basic",
+          "description": "Essential features for solo users and small teams."
+        },
+        {
+          "name": "Kuviloft Pro",
+          "description": "Advanced features for larger teams requiring robust solutions."
+        }
+      ],
+      "ctaText": "Explore Our Products"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get In Touch",
+      "description": "We are here to assist you with any questions or support you need.",
+      "emailLabel": "Email Us",
+      "email": "support@kuvilo.com",
+      "phoneLabel": "Call Us",
+      "phone": "+1 800 123 4567",
+      "addressLabel": "Visit Us",
+      "address": [
+        "123 Kuvilo Street",
+        "Suite 456",
+        "Tech City, TC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been successfully sent. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "Kuviloft",
+      "tagline": "Organize, Optimize, Achieve.",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Task Management",
+        "Collaboration",
+        "Integration",
+        "Customization"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "support@kuvilo.com",
+        "+1 800 123 4567",
+        "123 Kuvilo Street, Tech City"
+      ],
+      "copyright": "© 2023 Kuviloft. All rights reserved."
+    }
+  }
+}

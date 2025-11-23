@@ -1,0 +1,140 @@
+{
+  "basic": {
+    "app_name": "ArtZigix",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "zigixa",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "ArtZigix - Creative Arts Platform",
+      "description": "Join ArtZigix, a vibrant platform for artists and designers to showcase, collaborate, and sell their work.",
+      "keywords": "art, design, creative, marketplace, artists, collaboration"
+    },
+    "hero": {
+      "slogan": "Unleash Your Creativity",
+      "description": "Discover, showcase, and collaborate on unique art and design projects with ArtZigix."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "zigixa"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact",
+      "blog": "Blog",
+      "quickQuote": "Quick Quote"
+    },
+    "about": {
+      "badge": "About Us",
+      "heading": "Welcome to ArtZigix",
+      "paragraph": "ArtZigix is a creative arts and design platform that connects artists, designers, and creative professionals from around the world.",
+      "features": [
+        "Showcase your art",
+        "Collaborate with creatives",
+        "Sell your designs",
+        "Join design contests"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "Creative Solutions",
+      "subheading": "Explore Our Offerings",
+      "cards": [
+        {
+          "title": "Artist Portfolios",
+          "description": "Create and showcase your unique portfolio to connect with art enthusiasts."
+        },
+        {
+          "title": "Design Contests",
+          "description": "Participate in contests to win prizes and gain recognition."
+        },
+        {
+          "title": "Collaboration Tools",
+          "description": "Work with other creatives on exciting projects."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Art",
+      "subheading": "Unique Art Pieces",
+      "types": [
+        {
+          "name": "Digital Art",
+          "description": "Explore a range of digital artworks from talented artists."
+        },
+        {
+          "name": "Physical Art",
+          "description": "Discover stunning physical art pieces available for purchase."
+        }
+      ],
+      "ctaText": "Browse Our Collection"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading": "Get In Touch",
+      "description": "We'd love to hear from you. Reach out for any inquiries or support.",
+      "emailLabel": "Email",
+      "email": "support@zigixa.com",
+      "phoneLabel": "Phone",
+      "phone": "+1-234-567-890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Creative Lane",
+        "Art City, AC 12345"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully."
+    },
+    "footer": {
+      "brand": "ArtZigix",
+      "tagline": "Connecting Creative Minds",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Artist Portfolios",
+        "Design Contests",
+        "Collaboration Tools"
+      ],
+      "contactLabel": "Contact Us",
+      "contact": [
+        "+1-234-567-890",
+        "support@zigixa.com"
+      ],
+      "copyright": "© 2023 ArtZigix. All rights reserved."
+    }
+  }
+}

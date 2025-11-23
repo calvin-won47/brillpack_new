@@ -1,0 +1,145 @@
+{
+  "basic": {
+    "app_name": "Expeditionist",
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "muviro",
+    "gtmId": "GTM-58TDPTJ3",
+    "seo": {
+      "title": "Muviro - Your Gateway to Unique Travel Adventures",
+      "description": "Discover unique, sustainable, and immersive travel experiences with Muviro. Explore off-the-beaten-path destinations and become the hero of your own journey.",
+      "keywords": "travel, adventure, sustainable travel, immersive experiences, unique destinations, Muviro"
+    },
+    "hero": {
+      "slogan": "Explore the Unexplored",
+      "description": "Join us on extraordinary adventures that take you beyond the ordinary. Experience travel that supports local communities and the environment."
+    }
+  },
+  "apiEndpoints": {
+    "strapi_url": "https://2amcreations.com",
+    "strapi_site_slug": "muviro"
+  },
+  "extra": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "contact": "Contact Us",
+      "blog": "Blog",
+      "quickQuote": "Get a Quote"
+    },
+    "about": {
+      "badge": "About Muviro",
+      "heading": "Our Journey",
+      "paragraph": "At Muviro, we believe in travel that transforms. Our mission is to connect travelers with experiences that are as sustainable as they are unforgettable.",
+      "features": [
+        "Sustainable Travel",
+        "Unique Experiences",
+        "Cultural Immersion",
+        "Community Support"
+      ]
+    },
+    "services": {
+      "badge": "Our Services",
+      "heading": "What We Offer",
+      "subheading": "Tailored for the Adventurous",
+      "cards": [
+        {
+          "title": "Custom Travel Packages",
+          "description": "Create your own adventure with packages tailored to your preferences."
+        },
+        {
+          "title": "Local Guides",
+          "description": "Explore with knowledgeable guides who offer authentic insights."
+        },
+        {
+          "title": "Eco-Friendly Tours",
+          "description": "Travel sustainably with tours designed to minimize environmental impact."
+        }
+      ]
+    },
+    "products": {
+      "badge": "Our Products",
+      "heading": "Explore Our Offerings",
+      "subheading": "Adventure Awaits",
+      "types": [
+        {
+          "name": "Adventure Gear",
+          "description": "High-quality gear for all your travel needs."
+        },
+        {
+          "name": "Travel Guides",
+          "description": "Comprehensive guides for exploring new destinations."
+        }
+      ],
+      "ctaText": "Shop Now"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "heading": "Contact Us",
+      "description": "We'd love to hear from you. Reach out with any questions or to start planning your next adventure.",
+      "emailLabel": "Email",
+      "email": "contact@muviro.com",
+      "phoneLabel": "Phone",
+      "phone": "+1234567890",
+      "addressLabel": "Address",
+      "address": [
+        "123 Adventure Lane",
+        "Travel City, TX 78901"
+      ],
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Your Phone",
+        "message": "Your Message"
+      },
+      "submitText": "Send Message",
+      "toastTitle": "Thank You!",
+      "toastDescription": "Your message has been sent successfully. We will get back to you shortly."
+    },
+    "footer": {
+      "brand": "Muviro",
+      "tagline": "Journey Beyond",
+      "quickLinksLabel": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "about",
+          "label": "About Us"
+        },
+        {
+          "id": "services",
+          "label": "Services"
+        },
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "id": "contact",
+          "label": "Contact Us"
+        }
+      ],
+      "servicesLabel": "Our Services",
+      "services": [
+        "Custom Travel Packages",
+        "Local Guides",
+        "Eco-Friendly Tours"
+      ],
+      "contactLabel": "Contact Information",
+      "contact": [
+        "Email: contact@muviro.com",
+        "Phone: +1234567890",
+        "Address: 123 Adventure Lane, Travel City, TX 78901"
+      ],
+      "copyright": "© 2023 Muviro. All rights reserved."
+    }
+  }
+}
