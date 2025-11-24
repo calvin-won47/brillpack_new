@@ -139,6 +139,11 @@ jobs:
           name: vite-build-dist
           path: ./dist
 
+      - name: Create SPA subpath fallback for /blog
+        run: |
+          mkdir -p ./dist/blog
+          cp ./dist/index.html ./dist/blog/index.html
+
       - name: Setup Node.js 18 (for env reading)
         uses: actions/setup-node@v4
         with:
@@ -241,6 +246,11 @@ jobs:
         with:
           name: vite-build-dist
           path: ./dist
+
+      - name: Create SPA subpath fallback for /blog (single)
+        run: |
+          mkdir -p ./dist/blog
+          cp ./dist/index.html ./dist/blog/index.html
 
       - name: Setup Node.js 18 (for env reading, single)
         uses: actions/setup-node@v4
