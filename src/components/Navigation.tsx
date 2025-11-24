@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { useConfig } from "@/contexts/ConfigContext";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,17 +31,27 @@ export const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="hover:text-accent transition-colors font-medium"
-              >
-                {item.name}
-              </a>
+              item.href.startsWith("/") ? (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="hover:text-accent transition-colors font-medium"
+                >
+                  {item.name}
+                </Link>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="hover:text-accent transition-colors font-medium"
+                >
+                  {item.name}
+                </a>
+              )
             ))}
-            <Button variant="hero" size="default">
-              {navCopy?.quickQuote || "Quick Quote"}
-            </Button>
+          <Button variant="hero" size="default">
+            {navCopy?.quickQuote || "Quick Quote"}
+          </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -57,14 +68,25 @@ export const Navigation = () => {
         {isOpen && (
           <div className="md:hidden pb-4">
             {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="block py-2 hover:text-accent transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </a>
+              item.href.startsWith("/") ? (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="block py-2 hover:text-accent transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block py-2 hover:text-accent transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              )
             ))}
             <Button variant="hero" size="default" className="w-full mt-4">
               Quick Quote
