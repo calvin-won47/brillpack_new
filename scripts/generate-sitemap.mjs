@@ -116,6 +116,25 @@ async function main() {
   const robotsTxt = buildRobotsTxt(SITE_URL)
   await fs.writeFile(path.resolve('dist/sitemap.xml'), sitemapXml, 'utf-8')
   await fs.writeFile(path.resolve('dist/robots.txt'), robotsTxt, 'utf-8')
+  // Create SPA fallbacks for /blog and /blog/:slug
+  try {
+    const distDir = path.resolve('dist')
+    const indexPath = path.join(distDir, 'index.html')
+    const indexHtml = await fs.readFile(indexPath, 'utf-8')
+    const blogDir = path.join(distDir, 'blog')
+    await fs.mkdir(blogDir, { recursive: true })
+    await fs.writeFile(path.join(blogDir, 'index.html'), indexHtml, 'utf-8')
+    for (const p of posts) {
+      const slug = String(p?.slug || '').trim()
+      if (!slug) continue
+      const slugDir = path.join(blogDir, slug)
+      await fs.mkdir(slugDir, { recursive: true })
+      await fs.writeFile(path.join(slugDir, 'index.html'), indexHtml, 'utf-8')
+    }
+    console.log(`Created SPA fallbacks for /blog and ${posts.length} slugs`)
+  } catch (e) {
+    console.warn('Skipping SPA fallback creation:', e?.message || e)
+  }
   console.log(`Generated ${posts.length} post URLs into dist/sitemap.xml and robots.txt for ${SITE_URL}`)
 }
 
